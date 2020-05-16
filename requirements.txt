@@ -1,0 +1,11 @@
+future==0.18.2
+joblib==0.15.0
+numpy==1.18.4
+Pillow==7.1.2
+PyYAML==5.3.1
+scikit-learn==0.23.0
+scipy==1.4.1
+sklearn==0.0
+threadpoolctl==2.0.0
+torch==1.5.0+cpu
+torchvision==0.6.0+cpu
