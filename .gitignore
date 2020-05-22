@@ -5,3 +5,5 @@ venv
 assets
 src
 API_KEY.txt
+nbbo.csv
+data/
