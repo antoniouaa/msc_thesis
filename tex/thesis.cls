@@ -266,7 +266,7 @@
 
     % Make the title
     \makeatletter
-    \centering{\LARGE \@title \par} \vspace{1.5cm}
+    \centering{\huge \@title \par} \vspace{1.5cm}
     
     % Make the logo
     \includegraphics[height=1.5in]{\@logo}\par 
@@ -278,7 +278,7 @@
     {\footnotesize \@schoolname \\ \vspace{0.25cm} \@collegename \\  \vspace{0.75cm}  {\large \@universityname} \par}
     
     % Some space and the submission statement
-    \vspace{1.5cm}
+    \vspace{1cm}
     {\footnotesize \submissionStatement \par}
     
     % Print out the supervisor
@@ -319,17 +319,19 @@
 % ---------------------------------------------
 
 % Set the chapter title style
-\titleformat{\chapter}[display]
-{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{0pt}{\Huge}
+%\titleformat{\chapter}[display]
+%{\chaptertitlename\ \thechapter}{0pt}{\LARGE}
+
+\titleformat{\chapter}{\normalfont \bfseries \LARGE}{\thechapter}{11.5mm}{}
 
 % And space it out a bit
-\titlespacing*{\chapter} {0pt}{0pt}{5mm}
+\titlespacing*{\chapter} {0pt}{0pt}{0mm}
 
 % A fake chapter title command to emulate chapter titles
 % without actually adding a chapter
 \newcommand{\chapterTitle}[1]{
 	\vspace*{-20mm} 
-	{\normalfont\huge\bfseries#1 \par} 
+	{\normalfont\LARGE\bfseries#1 \par} 
 	\vspace*{20mm}
 }
 
