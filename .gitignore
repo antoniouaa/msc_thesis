@@ -3,7 +3,5 @@ venv
 .vscode/settings.json
 .vscode/launch.json
 assets
-src
 API_KEY.txt
-nbbo.csv
 data/
