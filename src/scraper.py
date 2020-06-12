@@ -15,11 +15,15 @@ def fetch_credentials():
             credentials[words[0]] = words[1]
         return credentials
 
-def read_tickers(filename="supported_tickers.csv"):
+def read_tickers(filename="supported_tickers.csv", market="NYSE"):
     FILEPATH = os.path.abspath(os.path.join(BASE_PATH, "../data/tickers", filename))
     with open(FILEPATH) as f:
-        tickers = [row.split(",")[0] for row in f]
-        return tickers[1:]
+        data = [row.split(",") for row in f]
+        nyse_tickers = []
+        for record in data:
+            if record[1] == market:
+                nyse_tickers.append(record[0])
+        return nyse_tickers
 
 def make_request(ticker, start_date=None, end_date=None):
     URL = f"https://api.tiingo.com/tiingo/daily/{ticker}/prices?startDate={start_date}&endDate={end_date}&token={credentials['TIINGO']}"

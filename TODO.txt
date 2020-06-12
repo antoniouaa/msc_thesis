@@ -1,0 +1,7 @@
+-x- Make data scraper
+-x- Delete datasets that are too small
+-x- Calculate Moving Averages for stocks
+--- Calculate Stochastic Oscillator
+--- Calculate Bollinger Bands
+--- Calculate Directional Movement Index
+--- Calculate Relative Strength Index

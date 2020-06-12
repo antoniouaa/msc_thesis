@@ -4,7 +4,6 @@ from sklearn.metrics import mean_absolute_error
 
 
 class Evaluator:
-
     def __init__(self, ideal, preds):
         self.ideal = ideal
         self.preds = preds
