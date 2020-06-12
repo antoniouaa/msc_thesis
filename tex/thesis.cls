@@ -185,14 +185,11 @@
     \setcounter{tocdepth}{3}
     {\setstretch{1.25}
         \tableofcontents
-        \thesisTOF
-        \thesisTOT
     }
     
     \setlength{\abovedisplayskip}{1pt}
     \setlength{\belowdisplayskip}{15pt}
 }
-
 
 
 % ABSTRACT
@@ -269,8 +266,8 @@
     \centering{\huge \@title \par} \vspace{1.5cm}
     
     % Make the logo
-    \includegraphics[height=1.5in]{\@logo}\par 
     
+    \includegraphics[height=1.5in]{\@logo}\par 
     % Some space, then the author, then the school and university
     % name
     \vspace{1.5cm}

@@ -42,7 +42,6 @@ if __name__ == "__main__":
     for ticker in tickers[0:len(tickers):200]:
         try:
             data = make_request(ticker, start_date="2018-01-01", end_date="2018-12-01")
-            #print(data)
             if data:
                 headers = data[0].keys()
                 save_to_csv(data, filename=f"{ticker}.csv", headers=headers)
