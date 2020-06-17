@@ -1,0 +1,142 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{stockprediction_datamining}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7e30e4d71d19ff2c9df5f8bd12329f17}{%
+           family={Barak},
+           familyi={B\bibinitperiod},
+           given={Sasan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bddac90398a742fd034cd242b83cd90d}{%
+           family={Modarres},
+           familyi={M\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fa86ea58503ba9af54efe0b6045bfb5b}
+      \strng{fullhash}{fa86ea58503ba9af54efe0b6045bfb5b}
+      \strng{bibnamehash}{fa86ea58503ba9af54efe0b6045bfb5b}
+      \strng{authorbibnamehash}{fa86ea58503ba9af54efe0b6045bfb5b}
+      \strng{authornamehash}{fa86ea58503ba9af54efe0b6045bfb5b}
+      \strng{authorfullhash}{fa86ea58503ba9af54efe0b6045bfb5b}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Developing an approach to evaluate stocks by forecasting effective features with data mining methods}
+      \field{volume}{42}
+      \field{year}{2015}
+      \field{pages}{1325\bibrangedash 1339}
+      \range{pages}{15}
+    \endentry
+    \entry{fama_efficient_market}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b646153d0a42d68ad3bffe2512b0225f}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{fullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{bibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Finance}
+      \field{number}{2}
+      \field{title}{Efficient Capital Markets: A Review of Theory and Empirical Work}
+      \field{volume}{25}
+      \field{year}{1970}
+      \field{pages}{383\bibrangedash 417}
+      \range{pages}{35}
+    \endentry
+    \entry{gan_original}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {NIPS}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{bibnamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorbibnamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{d17e6557c5836d2d978179999ea1037f}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the International Conference on Neural Information Processing Systems (NIPS 2014)}
+      \field{title}{Generative Adversarial Networks}
+      \field{year}{2014}
+      \field{pages}{2672\bibrangedash 2680}
+      \range{pages}{9}
+    \endentry
+    \entry{high-frequencyGAN}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=0e666ca1ec9bdcee719414b2940abf9a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi}%
+      }
+      \strng{namehash}{eb06ff0f560ea0f4095e2ee60f99dcaa}
+      \strng{fullhash}{eb06ff0f560ea0f4095e2ee60f99dcaa}
+      \strng{bibnamehash}{eb06ff0f560ea0f4095e2ee60f99dcaa}
+      \strng{authorbibnamehash}{eb06ff0f560ea0f4095e2ee60f99dcaa}
+      \strng{authornamehash}{eb06ff0f560ea0f4095e2ee60f99dcaa}
+      \strng{authorfullhash}{eb06ff0f560ea0f4095e2ee60f99dcaa}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Problems in Engineering}
+      \field{title}{Stock Market Prediction on High-Frequency Data Using Generative Adversarial Nets}
+      \field{volume}{2018}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
