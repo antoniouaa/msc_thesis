@@ -57,7 +57,6 @@
 
 % Packages
 \RequirePackage{amsmath}
-% --
 \RequirePackage{ifthen}
 \RequirePackage{xkeyval}
 \RequirePackage[dvipsnames]{xcolor}
@@ -79,7 +78,6 @@
 \RequirePackage{hyperref}
 \RequirePackage[table,figure]{totalcount}
 \RequirePackage{appendix}
-% -----------------
 \RequirePackage{csquotes}
 \RequirePackage{titlesec}
 \RequirePackage{datetime2}
