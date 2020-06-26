@@ -6,3 +6,4 @@ assets
 API_KEY.txt
 data/
 src/dcgan
+prediction.pdf
