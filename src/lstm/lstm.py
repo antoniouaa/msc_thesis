@@ -49,11 +49,12 @@ if __name__ == "__main__":
     np.random.seed(0)
     torch.manual_seed(0)
     data = fetch_data(TICKER_DIR)[14:, :]
-    length = int(data.shape[0] * 0.8)
-    input = torch.from_numpy(data[3:length, :-1])
-    target = torch.from_numpy(data[3:length, 1:])
-    test_input = torch.from_numpy(data[length:, :-1])
-    test_target = torch.from_numpy(data[length:, 1:])
+    open_ = data[:, 3]
+    rest = np.concatenate((data[:, :3], data[:, 3:]), axis=1)
+    input = torch.from_numpy(rest[3:, :])
+    target = torch.from_numpy(open_[3:])
+    test_input = torch.from_numpy(rest[:3, :])
+    test_target = torch.from_numpy(open_[:3])
 
     seq = Sequence()
     seq.double()
