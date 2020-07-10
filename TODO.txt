@@ -10,4 +10,4 @@
 -x- Create some basic graphing functions
 -?- Apply model to all symbols
 --- Create ARIMA model to evaluate symbols
---- Compare out model with ARIMA
+--- Compare our model with ARIMA

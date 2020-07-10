@@ -203,10 +203,10 @@ INPUT c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/packages.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/packages.tex
-INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex
-INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/bib-setup.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/bib-setup.tex
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.aux
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.aux
 OUTPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.aux

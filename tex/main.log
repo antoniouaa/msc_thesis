@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  29 JUN 2020 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  10 JUL 2020 20:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -709,7 +709,7 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (c:/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-))) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/packages.tex) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/bib-setup.tex)
+))) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/packages.tex) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/bib-setup.tex) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -877,7 +877,7 @@ Package biblatex Info: Reference segment=0 on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=60, 45.771pt x 65.043pt>
+<logo.png, id=56, 45.771pt x 65.043pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 9.
@@ -982,7 +982,7 @@ Chapter 2.
 ]
 Chapter 3.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/method.tex
-<figures/brayford.jpg, id=129, 1445.4pt x 391.4625pt>
+<figures/brayford.jpg, id=120, 1445.4pt x 391.4625pt>
 File: figures/brayford.jpg Graphic file (type jpg)
 <use figures/brayford.jpg>
 Package pdftex.def Info: figures/brayford.jpg  used on input line 11.
@@ -1023,24 +1023,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 78948484C5509CC6528B225999730739;842.
+(rerunfilecheck)             Checksum: 049BD809773D036B941FDAD5EA87C6D6;764.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21176 strings out of 480478
- 381249 string characters out of 5903485
- 1092265 words of memory out of 5000000
- 36768 multiletter control sequences out of 15000+600000
+ 21169 strings out of 480478
+ 381014 string characters out of 5903485
+ 1092179 words of memory out of 5000000
+ 36763 multiletter control sequences out of 15000+600000
  608894 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,11n,104p,1244b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (12 pages, 461741 bytes).
+Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (12 pages, 458198 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 

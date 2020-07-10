@@ -1,14 +1,13 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Related Work}{}% 2
 \BOOKMARK [1][-]{section.2.1}{Stock Market Prediction models}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Generative Adversarial Networks}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{Testing some math}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{Testing citations}{chapter.2}% 6
-\BOOKMARK [0][-]{chapter.3}{Predicting stock prices with GAN}{}% 7
-\BOOKMARK [1][-]{section.3.1}{Defining the problem statement}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.2}{Prediction Model}{chapter.3}% 9
-\BOOKMARK [0][-]{chapter.4}{Results}{}% 10
-\BOOKMARK [1][-]{section.4.1}{Data set}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.2}{Evaluation Metrics}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 13
-\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 14
+\BOOKMARK [1][-]{section.2.2}{Testing some math}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Testing citations}{chapter.2}% 5
+\BOOKMARK [0][-]{chapter.3}{Predicting stock prices with GAN}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Defining the problem statement}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{Prediction Model}{chapter.3}% 8
+\BOOKMARK [0][-]{chapter.4}{Results}{}% 9
+\BOOKMARK [1][-]{section.4.1}{Data set}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.2}{Evaluation Metrics}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 13
