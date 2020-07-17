@@ -9,5 +9,6 @@
 -x- Create Sequential Model with 2 LSTM layers
 -x- Create some basic graphing functions
 -?- Apply model to all symbols
---- Create ARIMA model to evaluate symbols
+--- Add Directional measure for the closing price
+-?- Create ARIMA model to evaluate symbols
 --- Compare our model with ARIMA
