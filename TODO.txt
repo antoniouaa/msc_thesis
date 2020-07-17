@@ -4,11 +4,14 @@
 -x- Calculate Stochastic Oscillator
 -x- Calculate Exponential Averages
 -x- Calculate Bollinger Bands
--?- Calculate Directional Movement Index
--?- Calculate Relative Strength Index
+-D- Calculate Directional Movement Index
+-D- Calculate Relative Strength Index
 -x- Create Sequential Model with 2 LSTM layers
 -x- Create some basic graphing functions
 -?- Apply model to all symbols
---- Add Directional measure for the closing price
+-D- Add Directional measure for the closing price
 -?- Create ARIMA model to evaluate symbols
 --- Compare our model with ARIMA
+--- Make predictions using single stock
+--- Make predictions using all the stocks
+--- Start writing Introduction section for paper
