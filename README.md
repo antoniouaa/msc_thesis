@@ -26,6 +26,8 @@ model.compile(loss="mean_squared_error", optimizer=opt)
 ### Results, so far...
 
 ![Predictions on the testing set of a stock dataset](AIZP.png)
+
+
 Trying to fit the model onto the testing data seems to work, not as accurate as I would like it to be.
 Reported loss and accuracy: 
 ```
