@@ -2,7 +2,6 @@
 
 _A work-in-progress_
 
-
 ## Forecasting daily Closing Prices of Equity symbols using ANNs
 
 The project implements a Recurrent Neural Network (RNN) in the form of two Long Short-Term Memory (LSTM) layers to attempt to predict future closing prices for stocks.
