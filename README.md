@@ -25,15 +25,15 @@ model.compile(loss="mean_squared_error", optimizer=opt)
 
 ### Results, so far...
 
-![Predictions on the testing set of a stock dataset](AIZP.png)
+![Predictions on the testing set of a stock dataset](data\\tickers\\AIZP.png)
 
 
 Trying to fit the model onto the testing data seems to work, not as accurate as I would like it to be.
 Reported loss and accuracy: 
 ```
-History Item [loss] reports value of 1.8945788939793904
+History Item [loss] reports value of 0.7038038571675619
 History Item [accuracy] reports value of 0.5555555820465088
-History Item [mae] reports value of 1.0775936841964722
+History Item [mae] reports value of 0.7038038372993469
 ```
 
 Accuracy over 50% is ok but could be better. Will tinker with learning rate, loss function, activation function, node count, etc.
