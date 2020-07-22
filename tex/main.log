@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  17 JUL 2020 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  22 JUL 2020 01:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -982,15 +982,16 @@ Chapter 2.
 ]
 Chapter 3.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/method.tex
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4.
+ (c:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 <figures/brayford.jpg, id=120, 1445.4pt x 391.4625pt>
 File: figures/brayford.jpg Graphic file (type jpg)
 <use figures/brayford.jpg>
-Package pdftex.def Info: figures/brayford.jpg  used on input line 20.
+Package pdftex.def Info: figures/brayford.jpg  used on input line 15.
 (pdftex.def)             Requested size: 472.03123pt x 127.83904pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 25.
- (c:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [3
+) [3
 
  <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/figures/brayford.jpg>]
 Chapter 4.
@@ -1037,7 +1038,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  70i,11n,104p,1244b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (12 pages, 457543 bytes).
+Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (12 pages, 457742 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  187 compressed objects within 2 object streams
