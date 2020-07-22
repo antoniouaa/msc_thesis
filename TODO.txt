@@ -10,8 +10,9 @@
 -x- Create some basic graphing functions
 -?- Apply model to all symbols
 -D- Add Directional measure for the closing price
--?- Create ARIMA model to evaluate symbols
+-X- Create ARIMA model to evaluate symbols
 --- Compare our model with ARIMA
---- Make predictions using single stock
+-X- Make predictions using single stock
 --- Make predictions using all the stocks
 --- Start writing Introduction section for paper
+--- Extend the ARIMA model to fit all stocks, individually
