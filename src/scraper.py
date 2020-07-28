@@ -3,6 +3,9 @@ import requests
 import csv
 
 BASE_PATH = os.path.dirname(__file__)
+nasdaq = ["MSFT", "AAPL", "FB", "AMZN", "GOOG"]
+nyse = ["F", "GE", "BAC", "WFC", "BA"]
+snp = ["JPM", "AXP", "C", "GS", "MS"]
 
 def fetch_credentials():
     FILENAME = "API_KEY.txt"
@@ -15,15 +18,15 @@ def fetch_credentials():
             credentials[words[0]] = words[1]
         return credentials
 
-def read_tickers(filename="supported_tickers.csv", market="NYSE"):
+def read_tickers(filename="supported_tickers.csv", market=["NYSE", "NASDAQ", "FTSE"]):
     FILEPATH = os.path.abspath(os.path.join(BASE_PATH, "../data/tickers", filename))
     with open(FILEPATH) as f:
         data = [row.split(",") for row in f]
-        nyse_tickers = []
+        tickers = []
         for record in data:
-            if record[1] == market:
-                nyse_tickers.append(record[0])
-        return nyse_tickers
+            if record[1] in market:
+                tickers.append(record[0])
+    return tickers
 
 def make_request(ticker, start_date=None, end_date=None):
     URL = f"https://api.tiingo.com/tiingo/daily/{ticker}/prices?startDate={start_date}&endDate={end_date}&token={credentials['TIINGO']}"
@@ -42,12 +45,13 @@ def save_to_csv(data, filename="ticker_data.csv", headers=[]):
 
 if __name__ == "__main__":
     credentials = fetch_credentials()
-    tickers = read_tickers()
-    for ticker in tickers[0:len(tickers):200]:
-        try:
-            data = make_request(ticker, start_date="2018-01-01", end_date="2018-12-01")
-            if data:
-                headers = data[0].keys()
-                save_to_csv(data, filename=f"{ticker}.csv", headers=headers)
-        except:
-            pass
+    tickers = read_tickers()  
+    for ticker in tickers:
+        if ticker in nasdaq or ticker in nyse or ticker in snp:
+            try:
+                data = make_request(ticker, start_date="2016-01-01", end_date="2019-12-31")
+                if data:
+                    headers = data[0].keys()
+                    save_to_csv(data, filename=f"{ticker}.csv", headers=headers)
+            except:
+                pass
