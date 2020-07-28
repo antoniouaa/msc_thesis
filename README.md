@@ -16,10 +16,11 @@ Our model currently is a sequential single layer LSTM RNN + Dense, though future
 
 ```
 model = Sequential()
-model.add(LSTM(100, activation="relu", input_shape=(15, 3)))
-model.add(Dense(1))
-opt = Adam(learning_rate=0.01)
-model.compile(loss="mean_squared_error", optimizer=opt)
+model.add(LSTM(100, activation="relu", return_sequences=True, input_shape=(n_steps, n_features)))
+model.add(LSTM(100, activation="relu"))
+model.add(Dense(n_features))
+opt = Adam(learning_rate=0.0005)
+model.compile(loss="mean_squared_error", optimizer=opt, metrics=["accuracy", "mae"])
 ```
 
 ### Results, so far...
