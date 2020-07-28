@@ -3,5 +3,5 @@ venv
 .vscode/settings.json
 .vscode/launch.json
 API_KEY.txt
-data/
+data/tickers/ticker_data
 src/dcgan
