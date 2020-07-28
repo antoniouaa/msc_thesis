@@ -29,8 +29,8 @@ def split_sequences(sequences, n_steps):
 
 def build_model(loss="mae", lr=0.01, n_steps=5, n_features=4):
     m = Sequential()
-    m.add(LSTM(100, activation="relu", return_sequences=True, input_shape=(n_steps, n_features)))
-    m.add(LSTM(n_features, activation="relu"))
+    m.add(LSTM(100, activation="linear", return_sequences=True, input_shape=(n_steps, n_features)))
+    m.add(LSTM(n_features, activation="linear"))
     m.add(Dense(n_features))
     opt = Adam(learning_rate=lr)
     m.compile(loss=loss, optimizer=opt, metrics=["mae", "mse"])
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     tickers = fetch_tickers(TICKER_DIR)
     dfs = [pd.read_csv(os.path.join(TICKER_DIR, tick)) for tick in tickers]
     
-    num_epochs, learning_rate = 100, 0.01
+    num_epochs, learning_rate = 500, 0.001
     n_steps = 3
 
     for tick, df in zip(tickers, dfs):
@@ -64,6 +64,9 @@ if __name__ == "__main__":
         close = target.values.reshape(len(dataset), 1)
         d = np.hstack((open_, high, low, close))
 
+        scaler = MinMaxScaler()
+        # d_scaled = scaler.fit_transform(d)
+
         X, y = split_sequences(d, n_steps)
         assert X.shape == (998, 3, 4)
         assert y.shape == (998, 4)
@@ -71,15 +74,22 @@ if __name__ == "__main__":
 
         X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.8, shuffle=False)
 
-        model = build_model(n_steps=n_steps, n_features=n_features)
-        model.fit(X_train, y_train, epochs=num_epochs, verbose=0)
+        model = build_model(lr=learning_rate, n_steps=n_steps, n_features=n_features)
+        model.fit(X_train, y_train, epochs=num_epochs, verbose=2)
+        plt.plot(model.history.history["loss"])
+        plt.title(ticker_name)
+        plt.savefig(os.path.join(ASSET_DIR, "losses", f"{ticker_name}.png"))
+        plt.close()
 
         print(f"Evaluating Ticker {ticker_name}")
         scores = evaluate_model(model, X_test, y_test)
 
-        actual = df["close"].tail(X_test.shape[0]).values
+        actual = y_test[:, -1]
         yhat = model.predict(X_test, verbose=0)
+        assert yhat.shape == (200, 4)
+        # preds_scaled = scaler.inverse_transform(yhat)
         predictions = yhat[:, -1]
+        # predictions = preds_scaled[:, -1]
         fig = plt.figure()
         plt.title("Actual v Predicted prices")
         plt.ylabel("Closing Price")
@@ -89,5 +99,6 @@ if __name__ == "__main__":
         plt.grid()
         plt.legend()
         plt.savefig(os.path.join(ASSET_DIR, f"{ticker_name}.png"))
+        plt.close()
 
         del model
