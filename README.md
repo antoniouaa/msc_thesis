@@ -19,26 +19,25 @@ model = Sequential()
 model.add(LSTM(100, activation="relu", return_sequences=True, input_shape=(n_steps, n_features)))
 model.add(LSTM(100, activation="relu"))
 model.add(Dense(n_features))
-opt = Adam(learning_rate=0.0005)
-model.compile(loss="mean_squared_error", optimizer=opt, metrics=["accuracy", "mae"])
+opt = Adam(learning_rate=0.001)
+model.compile(optimizer=opt, loss="mae", metrics=["accuracy"])
 ```
 
 ### Results, so far...
 
-![Predictions on the testing set of a stock dataset](data/tickers/AIZP.png)
+![Predictions on the testing set of a stock dataset](assets/WFC.png)
 
 
 Trying to fit the model onto the testing data seems to work, not as accurate as I would like it to be.
-Reported loss and accuracy: 
+Reported loss and accuracy for WFC dataset: 
 ```
-History Item [loss] reports value of 0.7038038571675619
-History Item [accuracy] reports value of 0.5555555820465088
-History Item [mae] reports value of 0.7038038372993469
+History Item [loss] reports value of 0.19859882831573486
+History Item [accuracy] reports value of 0.9599999785423279
 ```
 
-Accuracy over 50% is ok but could be better. Will tinker with learning rate, loss function, activation function, node count, etc.
+Accuracy has increased dramatically since last tinkering. Will further tinker with learning rate, loss function, activation function, node count, etc.
 
-![AIZP symbol training and testing set over actual](assets/MA_AIZP.jpg)
+![AAPL training loss](assets/losses/WFC.png) ![AAPL training accuracy](assets/accuracies/WFC.png)
 
 ### Tech used
 The usual python data stack is used in this project:

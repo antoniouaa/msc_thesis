@@ -8,11 +8,11 @@
 -D- Calculate Relative Strength Index
 -x- Create Sequential Model with 2 LSTM layers
 -x- Create some basic graphing functions
--?- Apply model to all symbols
+-x- Apply model to all symbols
 -D- Add Directional measure for the closing price
--X- Create ARIMA model to evaluate symbols
+-x- Create ARIMA model to evaluate symbols
 --- Compare our model with ARIMA
--X- Make predictions using single stock
---- Make predictions using all the stocks
+-x- Make predictions using single stock
+-x- Make predictions using all the stocks
 --- Start writing Introduction section for paper
 --- Extend the ARIMA model to fit all stocks, individually
