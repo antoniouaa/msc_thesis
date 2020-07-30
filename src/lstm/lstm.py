@@ -29,16 +29,17 @@ def split_sequences(sequences, n_steps):
 
 def build_model(loss="mae", lr=0.01, n_steps=5, n_features=4):
     m = Sequential()
-    m.add(LSTM(100, activation="linear", return_sequences=True, input_shape=(n_steps, n_features)))
-    m.add(LSTM(n_features, activation="linear"))
+    m.add(LSTM(100, activation="relu", return_sequences=True, input_shape=(n_steps, n_features)))
+    m.add(LSTM(n_features, activation="relu"))
     m.add(Dense(n_features))
     opt = Adam(learning_rate=lr)
     m.compile(loss=loss, optimizer=opt, metrics=["mae", "mse"])
     return m
 
-def evaluate_model(model, X_test, y_test):
-    scores = model.evaluate(X_test, y_test, verbose=0)
-    print(*[f"History Item [{item}] reports value of {value}" for value, item in zip(scores, model.metrics_names)], sep="\n")
+def evaluate_model(model, X_test, y_test, verbose=0):
+    scores = model.evaluate(X_test, y_test, verbose=verbose)
+    if verbose:
+        print(*[f"History Item [{item}] reports value of {value}" for value, item in zip(scores, model.metrics_names)], sep="\n")
     return scores
 
 if __name__ == "__main__":
@@ -88,8 +89,8 @@ if __name__ == "__main__":
         yhat = model.predict(X_test, verbose=0)
         assert yhat.shape == (200, 4)
         # preds_scaled = scaler.inverse_transform(yhat)
-        predictions = yhat[:, -1]
         # predictions = preds_scaled[:, -1]
+        predictions = yhat[:, -1]
         fig = plt.figure()
         plt.title("Actual v Predicted prices")
         plt.ylabel("Closing Price")
@@ -100,5 +101,10 @@ if __name__ == "__main__":
         plt.legend()
         plt.savefig(os.path.join(ASSET_DIR, f"{ticker_name}.png"))
         plt.close()
+
+        print()
+
+        with open(LOSS_PATH, "a") as loss_file:
+            pass
 
         del model
