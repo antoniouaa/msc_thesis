@@ -5,3 +5,4 @@ venv
 API_KEY.txt
 data/tickers/ticker_data
 src/dcgan
+resources
