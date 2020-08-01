@@ -11,8 +11,11 @@
 -x- Apply model to all symbols
 -D- Add Directional measure for the closing price
 -x- Create ARIMA model to evaluate symbols
---- Compare our model with ARIMA
 -x- Make predictions using single stock
 -x- Make predictions using all the stocks
---- Start writing Introduction section for paper
---- Extend the ARIMA model to fit all stocks, individually
+-x- Gather all ANN loss results
+-S- Start writing Introduction section for paper
+-S- Extend the ARIMA model to fit all stocks, individually
+--- Gather all ARIMA loss results
+--- Benchmark against another pricing method
+--- Compare our model with ARIMA
