@@ -29,15 +29,14 @@ model.compile(optimizer=opt, loss="mae", metrics=["accuracy"])
 
 
 Trying to fit the model onto the testing data seems to work, not as accurate as I would like it to be.
-Reported loss and accuracy for WFC dataset: 
+Reported MAE and MSE for WFC dataset: 
 ```
-History Item [loss] reports value of 0.19859882831573486
-History Item [accuracy] reports value of 0.9599999785423279
+History Item [loss] reports value of 0.016902789101004602
+History Item [mse] reports value of 0.0005050316685810685
 ```
+Will further tinker with learning rate, loss function, activation function, node count, etc.
 
-Accuracy has increased dramatically since last tinkering. Will further tinker with learning rate, loss function, activation function, node count, etc.
-
-![AAPL training loss](assets/losses/WFC.png) ![AAPL training accuracy](assets/accuracies/WFC.png)
+![AAPL training loss](assets/losses/WFC.png)
 
 ### Tech used
 The usual python data stack is used in this project:
