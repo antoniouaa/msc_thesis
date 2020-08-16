@@ -16,11 +16,10 @@ Our model currently is a sequential single layer LSTM RNN + Dense, though future
 
 ```
 model = Sequential()
-model.add(LSTM(100, activation="relu", return_sequences=True, input_shape=(n_steps, n_features)))
-model.add(LSTM(100, activation="relu"))
+model.add(LSTM(100, activation="relu", input_shape=(n_steps, n_features)))
 model.add(Dense(n_features))
 opt = Adam(learning_rate=0.001)
-model.compile(optimizer=opt, loss="mae", metrics=["accuracy"])
+model.compile(optimizer=opt, loss="mae", metrics=["mse"])
 ```
 
 ### Results, so far...
@@ -37,6 +36,14 @@ History Item [mse] reports value of 0.0005050316685810685
 Will further tinker with learning rate, loss function, activation function, node count, etc.
 
 ![AAPL training loss](assets/losses/WFC.png)
+
+### Comparing the two networks
+LSTM pulls ahead of ARIMA with lower Mean Squared Errors and Mean Absolute Errors:
+```
+LSTM mean: 0.000331696789897865
+ARIMA mean: 0.0005229507475626473
+```
+This is exactly what we wanted to show in the paper, so far so good.
 
 ### Tech used
 The usual python data stack is used in this project:
