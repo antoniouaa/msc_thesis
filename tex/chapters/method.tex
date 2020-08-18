@@ -1,11 +1,12 @@
-The following section provides details in the construction of the model for predicting stock prices, as well as a breakdown of the data used in the training of the network.
+The following section provides details in the construction of the model for predicting stock prices, as well as a description of the ARIMA model to which we compare the network.
 
 \section{Time-Series Forecasting}
 Financial data are discrete in time and as such can be modelled as time-series with calculated means and standard deviations.
 
 * time series analysis\\
 * exploratory analysis
-\section{Autoregressive Models}
+\section{ARIMA}
+
 
 \section{Model Description}
 The network is a relatively simple network by most accounts, comprised of a single hidden layer. The simplicity of the model only goes to show the power of neural networks in fitting and forecasting time-series. The model consists of three layers, an input layer, a Long Short-Term Memory (LSTM) layer and the output layer, as shown in \ref{tab:model_arch}.
@@ -30,7 +31,7 @@ The input layer receives a 2-dimensional array of historical stock values, inclu
 
 \begin{table}[h]
     \centering
-    \begin{tabular}{|l|l|l|l|l|l|}
+    \begin{tabular}{|r|r|l|r|l|l|}
         \hline
         \textbf{Nodes} & \textbf{Epochs} & \textbf{Optimizer} & \textbf{Learning Rate} & \textbf{Activation} & \textbf{Loss} \\ \hline
         100            & 100             & Adam               & 0.001                  & ReLU                & MAE           \\ \hline
@@ -52,27 +53,3 @@ In this project we made use of the Keras API to implement the network. Keras is 
 With as little as 5 lines of code, we have a working Long Short-Term Memory model ready for training. The LSTM cell easily remembers the long term dependencies in the data and outputs a 1-dimensional array containing future values.
 
 
-Here is a sentence, and you can see a nice picture in Figure \ref{fig:brayford}.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\textwidth]{figures/brayford.jpg}
-    \caption{A picture of the Brayford from Google Images.}
-    \label{fig:brayford}
-\end{figure}
-
-Also, a table can be found in Table \ref{tbl:example-table}. You should use a \LaTeX~table generator like \url{https://www.tablesgenerator.com/} if you want to make your life easier.
-
-\begin{table}[ht]
-    \caption{Here is a table. The caption goes above like this.}
-    \centering
-    \begin{tabular}{l|l|c}
-        First name & Last name & Age \\
-        \hline\hline
-        Bob & Bobbington & 24 \\
-        Joe & Bloggs & 37 \\
-        Billy & Bob & 10 \\
-
-    \end{tabular}
-    \label{tbl:example-table}
-\end{table}
