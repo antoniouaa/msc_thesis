@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+  \PYG{n}{model} \PYG{o}{=} \PYG{n}{Sequential}\PYG{p}{()}
+  \PYG{n}{model}\PYG{o}{.}\PYG{n}{add}\PYG{p}{(}\PYG{n}{LSTM}\PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{,} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}relu\PYGZdq{}}\PYG{p}{,} \PYG{n}{input\PYGZus{}shape}\PYG{o}{=}\PYG{p}{(}\PYG{n}{n\PYGZus{}steps}\PYG{p}{,} \PYG{n}{n\PYGZus{}features}\PYG{p}{)))}
+  \PYG{n}{model}\PYG{o}{.}\PYG{n}{add}\PYG{p}{(}\PYG{n}{Dense}\PYG{p}{(}\PYG{n}{n\PYGZus{}features}\PYG{p}{))}
+  \PYG{n}{opt} \PYG{o}{=} \PYG{n}{Adam}\PYG{p}{(}\PYG{n}{learning\PYGZus{}rate}\PYG{o}{=}\PYG{l+m+mf}{0.001}\PYG{p}{)}
+  \PYG{n}{model}\PYG{o}{.}\PYG{n}{compile}\PYG{p}{(}\PYG{n}{optimizer}\PYG{o}{=}\PYG{n}{opt}\PYG{p}{,} \PYG{n}{loss}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}mae\PYGZdq{}}\PYG{p}{,} \PYG{n}{metrics}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}mse\PYGZdq{}}\PYG{p}{])}
+\end{Verbatim}

@@ -14,16 +14,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodology}{3}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Dataset}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Time-Series Forecasting}{3}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Prediction Model}{3}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Autoregressive Models}{3}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Results}{5}{chapter.4}%
+\contentsline {section}{\numberline {3.3}Model Description}{3}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Data set}{5}{section.4.1}%
+\contentsline {section}{\numberline {3.4}Dataset}{4}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Evaluation Metrics}{5}{section.4.2}%
+\contentsline {chapter}{\numberline {4}Results}{6}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results}{5}{section.4.3}%
+\contentsline {section}{\numberline {4.1}Data set}{6}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{6}{chapter.5}%
+\contentsline {section}{\numberline {4.2}Evaluation Metrics}{6}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Results}{6}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusions}{7}{chapter.5}%
