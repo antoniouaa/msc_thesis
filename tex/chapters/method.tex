@@ -19,8 +19,11 @@ The network is a relatively simple network by most accounts, comprised of a sing
         \newcommand{\h}[2]{$h_#2$}
         \newcommand{\hlast}[2]{\ifnum4=#2 \vdots \else \ifnum5=#2 $h_{100}$ \else $h_#2$ \fi \fi}
         \inputlayer[count=4, bias=false, title=Input, text=\x]
-        \hiddenlayer[count=5, bias=false, title=LSTM, text=\hlast] \linklayers
-        \outputlayer[count=4, title=Output, text=\y] 
+        \hiddenlayer[count=5, bias=false, title=LSTM, text=\hlast] 
+        \linklayers
+        \hiddenlayer[count=1, bias=false, title=Dense, text=\h]
+        \linklayers
+        \outputlayer[count=1, title=Output, text=\y] 
         \linklayers
     \end{neuralnetwork}
     \caption{Model Architecture}
@@ -50,6 +53,13 @@ In this project we made use of the Keras API to implement the network. Keras is 
     model.compile(optimizer=opt, loss="mae", metrics=["mse"])
 \end{minted}
 
-With as little as 5 lines of code, we have a working Long Short-Term Memory model ready for training. The LSTM cell easily remembers the long term dependencies in the data and outputs a 1-dimensional array containing future values.
+With as little as 5 lines of code, we have a working Long Short-Term Memory model ready for training. The LSTM cell easily remembers the long term dependencies in the data and outputs a 1-dimensional array containing future values. \ref{tab:layer_description} contains a more detailed breakdown of the layers used in the network.
 
+\graphicspath{{./figures/}}
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=80mm]{model_plot}
+    \caption{Description of layers}
+    \label{tab:layer_description}
+\end{figure}
 

@@ -19,6 +19,35 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{step_function}{book}{}
+      \name{author}{2}{}{%
+        {{hash=b30c3e9da438d36efb5827b2fe852284}{%
+           family={Abramowitz},
+           familyi={A\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod}}}%
+        {{hash=94cadaf0db044088c2558aa77e72748b}{%
+           family={Stegun},
+           familyi={S\bibinitperiod},
+           given={Irene\bibnamedelima A},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Standards}%
+      }
+      \strng{namehash}{63984f02de086b7d6004b5486dbf6cab}
+      \strng{fullhash}{63984f02de086b7d6004b5486dbf6cab}
+      \strng{bibnamehash}{63984f02de086b7d6004b5486dbf6cab}
+      \strng{authorbibnamehash}{63984f02de086b7d6004b5486dbf6cab}
+      \strng{authornamehash}{63984f02de086b7d6004b5486dbf6cab}
+      \strng{authorfullhash}{63984f02de086b7d6004b5486dbf6cab}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of Mathematican Functions with Formulas, Graphs and Mathematical Tables}
+      \field{year}{1972}
+    \endentry
     \entry{fama_efficient_market}{article}{}
       \name{author}{1}{}{%
         {{hash=b646153d0a42d68ad3bffe2512b0225f}{%
@@ -67,34 +96,244 @@
       \field{title}{Time series analysis}
       \field{year}{1970}
     \endentry
-    \entry{stockprediction_datamining}{article}{}
-      \name{author}{1}{}{%
-        {{hash=30818642dfa0f1a96a524ca5a16d710e}{%
-           family={Sasan\bibnamedelima Barak},
-           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Mohammad\bibnamedelima Modarres},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+    \entry{goodfellow_backprop}{book}{}
+      \name{author}{3}{}{%
+        {{hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Elsevier}%
+        {MIT Press}%
       }
-      \strng{namehash}{30818642dfa0f1a96a524ca5a16d710e}
-      \strng{fullhash}{30818642dfa0f1a96a524ca5a16d710e}
-      \strng{bibnamehash}{30818642dfa0f1a96a524ca5a16d710e}
-      \strng{authorbibnamehash}{30818642dfa0f1a96a524ca5a16d710e}
-      \strng{authornamehash}{30818642dfa0f1a96a524ca5a16d710e}
-      \strng{authorfullhash}{30818642dfa0f1a96a524ca5a16d710e}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \strng{namehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{3}
-      \field{journaltitle}{Expert Systems with Applications}
-      \field{title}{Developing an approach to evaluate stocks by forecasting effective features with data mining methods}
-      \field{volume}{42}
-      \field{year}{2015}
-      \field{pages}{1325\bibrangedash 1339}
-      \range{pages}{15}
+      \field{note}{\url{http://www.deeplearningbook.org}}
+      \field{title}{Deep Learning}
+      \field{year}{2016}
+    \endentry
+    \entry{tech_analysis}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d4b775cd661ecc518ad25f17988c2c95}{%
+           family={Kirkpatrick},
+           familyi={K\bibinitperiod},
+           given={Charles\bibnamedelima D},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b5c59f0c8752611734618f0a7821a110}{%
+           family={Dahlquist},
+           familyi={D\bibinitperiod},
+           given={Julie\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0291b5f09ba387043495289b3f42e678}
+      \strng{fullhash}{0291b5f09ba387043495289b3f42e678}
+      \strng{bibnamehash}{0291b5f09ba387043495289b3f42e678}
+      \strng{authorbibnamehash}{0291b5f09ba387043495289b3f42e678}
+      \strng{authornamehash}{0291b5f09ba387043495289b3f42e678}
+      \strng{authorfullhash}{0291b5f09ba387043495289b3f42e678}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-13-153113-0}
+      \field{journaltitle}{Financial Times Press}
+      \field{title}{Technical Analysis: The Complete Resource for Financial Market Technicians}
+      \field{year}{2006}
+    \endentry
+    \entry{nervenets}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a8ca9bca77a4b96b2595d31020d200bc}{%
+           family={Kleene},
+           familyi={K\bibinitperiod},
+           given={S.C},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{a8ca9bca77a4b96b2595d31020d200bc}
+      \strng{fullhash}{a8ca9bca77a4b96b2595d31020d200bc}
+      \strng{bibnamehash}{a8ca9bca77a4b96b2595d31020d200bc}
+      \strng{authorbibnamehash}{a8ca9bca77a4b96b2595d31020d200bc}
+      \strng{authornamehash}{a8ca9bca77a4b96b2595d31020d200bc}
+      \strng{authorfullhash}{a8ca9bca77a4b96b2595d31020d200bc}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Mathematics Studies}
+      \field{title}{Representation of Events in Nerve Nets and Finite Automata}
+      \field{year}{1956}
+      \field{pages}{3\bibrangedash 41}
+      \range{pages}{39}
+    \endentry
+    \entry{nervous_activity_warrenpitts}{article}{}
+      \name{author}{2}{}{%
+        {{hash=600f4f5a4fbf6e88daaf6f402718b549}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c5a56e799cdf785e814246c091d36e73}{%
+           family={Pitts},
+           familyi={P\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c288ce9df16694e1586a7817092f60a1}
+      \strng{fullhash}{c288ce9df16694e1586a7817092f60a1}
+      \strng{bibnamehash}{c288ce9df16694e1586a7817092f60a1}
+      \strng{authorbibnamehash}{c288ce9df16694e1586a7817092f60a1}
+      \strng{authornamehash}{c288ce9df16694e1586a7817092f60a1}
+      \strng{authorfullhash}{c288ce9df16694e1586a7817092f60a1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A Logical Calculus of Ideas Immanent in Nervous Activity}
+      \field{number}{4}
+      \field{title}{A Logical Calculus of Ideas Immanent in Nervous Activity}
+      \field{volume}{5}
+      \field{year}{1943}
+      \verb{doi}
+      \verb 10.1007/BF02478259
+      \endverb
+    \endentry
+    \entry{rumelhart_backprop}{article}{}
+      \name{author}{3}{}{%
+        {{hash=980892af29a5c3eaadf9d6c1c9747255}{%
+           family={Rumelhart},
+           familyi={R\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b4906aab25c4a1182b5e4145c415d68a}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=95f9ca0841a320ed3f8654c3f22d57a9}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b602528168dee0963992afeff77989e9}
+      \strng{fullhash}{b602528168dee0963992afeff77989e9}
+      \strng{bibnamehash}{b602528168dee0963992afeff77989e9}
+      \strng{authorbibnamehash}{b602528168dee0963992afeff77989e9}
+      \strng{authornamehash}{b602528168dee0963992afeff77989e9}
+      \strng{authorfullhash}{b602528168dee0963992afeff77989e9}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Learning representations by back-propagating errors}
+      \field{volume}{323}
+      \field{year}{1986}
+      \field{pages}{533\bibrangedash 536}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/323533a0
+      \endverb
+    \endentry
+    \entry{ai_book}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f509695d30d2b0f8253a466b85d0f8ec}{%
+           family={Russel},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{810132ce92139d505672ff8b44fdf0f1}
+      \strng{fullhash}{810132ce92139d505672ff8b44fdf0f1}
+      \strng{bibnamehash}{810132ce92139d505672ff8b44fdf0f1}
+      \strng{authorbibnamehash}{810132ce92139d505672ff8b44fdf0f1}
+      \strng{authornamehash}{810132ce92139d505672ff8b44fdf0f1}
+      \strng{authorfullhash}{810132ce92139d505672ff8b44fdf0f1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Third}
+      \field{subtitle}{A Modern Approach}
+      \field{title}{Artificial Intelligence}
+      \field{year}{2010}
+    \endentry
+    \entry{backprop}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3ff7bf61e7c4e39e673222f8a81708ec}{%
+           family={Werbos},
+           familyi={W\bibinitperiod},
+           given={Paul\bibnamedelima John},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{3ff7bf61e7c4e39e673222f8a81708ec}
+      \strng{fullhash}{3ff7bf61e7c4e39e673222f8a81708ec}
+      \strng{bibnamehash}{3ff7bf61e7c4e39e673222f8a81708ec}
+      \strng{authorbibnamehash}{3ff7bf61e7c4e39e673222f8a81708ec}
+      \strng{authornamehash}{3ff7bf61e7c4e39e673222f8a81708ec}
+      \strng{authorfullhash}{3ff7bf61e7c4e39e673222f8a81708ec}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beyond Regression: New Tools ofr Predictions and Analysis in the Behavioural Sciences}
+      \field{year}{1975}
+    \endentry
+    \entry{machine-learning-dict}{book}{}
+      \name{author}{1}{}{%
+        {{hash=32dfb32b3ebe21db3ffaca3cf8791f8f}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Saint Elizabeth University}%
+      }
+      \strng{namehash}{32dfb32b3ebe21db3ffaca3cf8791f8f}
+      \strng{fullhash}{32dfb32b3ebe21db3ffaca3cf8791f8f}
+      \strng{bibnamehash}{32dfb32b3ebe21db3ffaca3cf8791f8f}
+      \strng{authorbibnamehash}{32dfb32b3ebe21db3ffaca3cf8791f8f}
+      \strng{authornamehash}{32dfb32b3ebe21db3ffaca3cf8791f8f}
+      \strng{authorfullhash}{32dfb32b3ebe21db3ffaca3cf8791f8f}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Machine Learning Dictionary}
+      \field{year}{2009}
     \endentry
   \enddatalist
 \endrefsection

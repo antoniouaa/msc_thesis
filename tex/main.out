@@ -1,14 +1,17 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Stock Market Prediction models}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Testing some math}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{Testing citations}{chapter.2}% 5
-\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 6
-\BOOKMARK [1][-]{section.3.1}{Time-Series Forecasting}{chapter.3}% 7
-\BOOKMARK [1][-]{section.3.2}{ARIMA}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.3}{Model Description}{chapter.3}% 9
-\BOOKMARK [0][-]{chapter.4}{Results}{}% 10
-\BOOKMARK [1][-]{section.4.1}{Dataset}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.2}{Evaluation Metrics}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 13
-\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 14
+\BOOKMARK [0][-]{chapter.2}{Overview of Neural Networks}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Neurons}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Activation Functions}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Backpropagation}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{ARIMA}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Testing some math}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.6}{Testing citations}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 9
+\BOOKMARK [1][-]{section.3.1}{Time-Series Forecasting}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{ARIMA}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{Model Description}{chapter.3}% 12
+\BOOKMARK [0][-]{chapter.4}{Results}{}% 13
+\BOOKMARK [1][-]{section.4.1}{Dataset}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{Evaluation Metrics}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 16
+\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 17

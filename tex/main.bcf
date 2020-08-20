@@ -2183,9 +2183,20 @@
     <bcf:datasource type="file" datatype="bibtex">bib/references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">box_jenkins</bcf:citekey>
-    <bcf:citekey order="2">stockprediction_datamining</bcf:citekey>
-    <bcf:citekey order="3">fama_efficient_market</bcf:citekey>
+    <bcf:citekey order="1">tech_analysis</bcf:citekey>
+    <bcf:citekey order="2">tech_analysis</bcf:citekey>
+    <bcf:citekey order="3">nervenets</bcf:citekey>
+    <bcf:citekey order="4">nervous_activity_warrenpitts</bcf:citekey>
+    <bcf:citekey order="5">machine-learning-dict</bcf:citekey>
+    <bcf:citekey order="6">ai_book</bcf:citekey>
+    <bcf:citekey order="7">machine-learning-dict</bcf:citekey>
+    <bcf:citekey order="8">machine-learning-dict</bcf:citekey>
+    <bcf:citekey order="9">step_function</bcf:citekey>
+    <bcf:citekey order="10">backprop</bcf:citekey>
+    <bcf:citekey order="11">rumelhart_backprop</bcf:citekey>
+    <bcf:citekey order="12">goodfellow_backprop</bcf:citekey>
+    <bcf:citekey order="13">box_jenkins</bcf:citekey>
+    <bcf:citekey order="14">fama_efficient_market</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
