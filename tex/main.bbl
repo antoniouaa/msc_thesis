@@ -96,6 +96,39 @@
       \field{title}{Time series analysis}
       \field{year}{1970}
     \endentry
+    \entry{relu-vision}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0b3943c3bfdbb5867b3760f7c7d488c2}{%
+           family={Glorot},
+           familyi={G\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f1733e10bf044cbd7be63e10e5689d78}{%
+           family={Bordes},
+           familyi={B\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{fullhash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{bibnamehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{authorbibnamehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{authornamehash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \strng{authorfullhash}{59e7b11c8612bb9c193b9bfa91e1c729}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Artificial Intelligence and Statistics (AISTATS}
+      \field{title}{Deep sparse rectifier neural networks}
+      \field{volume}{2011}
+      \field{year}{2011}
+    \endentry
     \entry{goodfellow_backprop}{book}{}
       \name{author}{3}{}{%
         {{hash=5d2585c11210cf1d4512e6e0a03ec315}{%
@@ -130,6 +163,33 @@
       \field{note}{\url{http://www.deeplearningbook.org}}
       \field{title}{Deep Learning}
       \field{year}{2016}
+    \endentry
+    \entry{relu}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e1eac9fa775939e49a8738a5c3457b40}{%
+           family={Hahnloser},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelimb H\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a5f8d3905fcb2b6e66a95957edf6d4da}{%
+           family={Seung},
+           familyi={S\bibinitperiod},
+           given={H\bibnamedelima Sebastian},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{680940549958fd72c437ea23f3a2b6a4}
+      \strng{fullhash}{680940549958fd72c437ea23f3a2b6a4}
+      \strng{bibnamehash}{680940549958fd72c437ea23f3a2b6a4}
+      \strng{authorbibnamehash}{680940549958fd72c437ea23f3a2b6a4}
+      \strng{authornamehash}{680940549958fd72c437ea23f3a2b6a4}
+      \strng{authorfullhash}{680940549958fd72c437ea23f3a2b6a4}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NIPS}
+      \field{title}{Permitted and Forbidden Sets in Symmetric Threshold-Linear Networks}
+      \field{year}{2001}
     \endentry
     \entry{tech_analysis}{book}{}
       \name{author}{2}{}{%
@@ -186,6 +246,38 @@
       \field{pages}{3\bibrangedash 41}
       \range{pages}{39}
     \endentry
+    \entry{relu-acoustics}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ed7b150d84a40a9f9067abd89a23a133}{%
+           family={Maas},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7f86bf3854a4890041c71b1ca724782d}{%
+           family={Hannun},
+           familyi={H\bibinitperiod},
+           given={Awni\bibnamedelima Y},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=49e889356ff39df159461bc2895c7e16}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{b549b736cb244235a5a82ecda096e42f}
+      \strng{fullhash}{b549b736cb244235a5a82ecda096e42f}
+      \strng{bibnamehash}{b549b736cb244235a5a82ecda096e42f}
+      \strng{authorbibnamehash}{b549b736cb244235a5a82ecda096e42f}
+      \strng{authornamehash}{b549b736cb244235a5a82ecda096e42f}
+      \strng{authorfullhash}{b549b736cb244235a5a82ecda096e42f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stanford Press}
+      \field{title}{Rectifier Nonlinearities Improve Neural Network Acoustic Models}
+      \field{year}{2014}
+    \endentry
     \entry{nervous_activity_warrenpitts}{article}{}
       \name{author}{2}{}{%
         {{hash=600f4f5a4fbf6e88daaf6f402718b549}{%
@@ -217,6 +309,32 @@
       \verb{doi}
       \verb 10.1007/BF02478259
       \endverb
+    \endentry
+    \entry{acti-functions}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ad7301804d9e7533687947632a3988a5}{%
+           family={Prajit},
+           familyi={P\bibinitperiod},
+           given={Ramachandran},
+           giveni={R\bibinitperiod}}}%
+        {{hash=91aafc93e68e8c6a55e8cd804c2acaf2}{%
+           family={Zoph},
+           familyi={Z\bibinitperiod},
+           given={Barret},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f4c47efd07b490d55a8234b9a4cb5cb}
+      \strng{fullhash}{8f4c47efd07b490d55a8234b9a4cb5cb}
+      \strng{bibnamehash}{8f4c47efd07b490d55a8234b9a4cb5cb}
+      \strng{authorbibnamehash}{8f4c47efd07b490d55a8234b9a4cb5cb}
+      \strng{authornamehash}{8f4c47efd07b490d55a8234b9a4cb5cb}
+      \strng{authorfullhash}{8f4c47efd07b490d55a8234b9a4cb5cb}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Searching for Activation Functions}
+      \field{year}{2017}
     \endentry
     \entry{rumelhart_backprop}{article}{}
       \name{author}{3}{}{%
@@ -308,7 +426,7 @@
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Beyond Regression: New Tools ofr Predictions and Analysis in the Behavioural Sciences}
+      \field{title}{Beyond Regression: New Tools for Predictions and Analysis in the Behavioural Sciences}
       \field{year}{1975}
     \endentry
     \entry{machine-learning-dict}{book}{}

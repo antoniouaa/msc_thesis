@@ -2192,11 +2192,15 @@
     <bcf:citekey order="7">machine-learning-dict</bcf:citekey>
     <bcf:citekey order="8">machine-learning-dict</bcf:citekey>
     <bcf:citekey order="9">step_function</bcf:citekey>
-    <bcf:citekey order="10">backprop</bcf:citekey>
-    <bcf:citekey order="11">rumelhart_backprop</bcf:citekey>
-    <bcf:citekey order="12">goodfellow_backprop</bcf:citekey>
-    <bcf:citekey order="13">box_jenkins</bcf:citekey>
-    <bcf:citekey order="14">fama_efficient_market</bcf:citekey>
+    <bcf:citekey order="10">relu</bcf:citekey>
+    <bcf:citekey order="11">acti-functions</bcf:citekey>
+    <bcf:citekey order="12">relu-vision</bcf:citekey>
+    <bcf:citekey order="13">relu-acoustics</bcf:citekey>
+    <bcf:citekey order="14">backprop</bcf:citekey>
+    <bcf:citekey order="15">rumelhart_backprop</bcf:citekey>
+    <bcf:citekey order="16">goodfellow_backprop</bcf:citekey>
+    <bcf:citekey order="17">box_jenkins</bcf:citekey>
+    <bcf:citekey order="18">fama_efficient_market</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

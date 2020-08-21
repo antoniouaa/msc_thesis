@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  20 AUG 2020 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  21 AUG 2020 00:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1095,28 +1095,37 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+)) (c:/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks44
+\labelindent=\skip99
+\enit@outerparindent=\dimen303
+\enit@toks=\toks45
+\enit@inbox=\box94
+\enit@count@id=\count537
+\enitdp@description=\count538
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarychains.code.tex
 File: tikzlibrarychains.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen303
-\pgfdecoratedremainingdistance=\dimen304
-\pgfdecoratedinputsegmentcompleteddistance=\dimen305
-\pgfdecoratedinputsegmentremainingdistance=\dimen306
-\pgf@decorate@distancetomove=\dimen307
-\pgf@decorate@repeatstate=\count537
-\pgfdecorationsegmentamplitude=\dimen308
-\pgfdecorationsegmentlength=\dimen309
+\pgfdecoratedcompleteddistance=\dimen304
+\pgfdecoratedremainingdistance=\dimen305
+\pgfdecoratedinputsegmentcompleteddistance=\dimen306
+\pgfdecoratedinputsegmentremainingdistance=\dimen307
+\pgf@decorate@distancetomove=\dimen308
+\pgf@decorate@repeatstate=\count539
+\pgfdecorationsegmentamplitude=\dimen309
+\pgfdecorationsegmentlength=\dimen310
 )
-\tikz@lib@dec@box=\box94
+\tikz@lib@dec@box=\box95
 ) (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen310
+\arrowsize=\dimen311
 ))) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/bib-setup.tex) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1150,17 +1159,17 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 7.
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count538
-\scratchdimen=\dimen311
-\scratchbox=\box95
-\nofMPsegments=\count539
-\nofMParguments=\count540
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count541
-\MPscratchDim=\dimen312
-\MPnumerator=\count542
-\makeMPintoPDFobject=\count543
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count540
+\scratchdimen=\dimen312
+\scratchbox=\box96
+\nofMPsegments=\count541
+\nofMParguments=\count542
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count543
+\MPscratchDim=\dimen313
+\MPnumerator=\count544
+\makeMPintoPDFobject=\count545
+\everyMPtoPDFconversion=\toks47
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1206,7 +1215,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box96
+\AtBeginShipoutBox=\box97
 Package hyperref Info: Link coloring OFF on input line 7.
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1215,7 +1224,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count544
+\c@section@level=\count546
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -1285,7 +1294,7 @@ Package biblatex Info: Reference segment=0 on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=75, 45.771pt x 65.043pt>
+<logo.png, id=87, 45.771pt x 65.043pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 9.
@@ -1394,14 +1403,32 @@ l.20 \chapter
 Chapter 2.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/neural-networks.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 31.
+(Font)              <24.88> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 31.
+(Font)              <20.74> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 31.
+(Font)              <17.28> on input line 34.
  [2
 
-] [3]) [4]
+]
+<./figures/relu.png, id=160, 433.62pt x 289.08pt>
+File: ./figures/relu.png Graphic file (type png)
+<use ./figures/relu.png>
+Package pdftex.def Info: ./figures/relu.png  used on input line 90.
+(pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
+ [3 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/relu.png>]
+<./figures/sigmoid.png, id=179, 433.62pt x 289.08pt>
+File: ./figures/sigmoid.png Graphic file (type png)
+<use ./figures/sigmoid.png>
+Package pdftex.def Info: ./figures/sigmoid.png  used on input line 116.
+(pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
+ [4 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/sigmoid.png>]
+<./figures/tanh.png, id=194, 433.62pt x 289.08pt>
+File: ./figures/tanh.png Graphic file (type png)
+<use ./figures/tanh.png>
+Package pdftex.def Info: ./figures/tanh.png  used on input line 132.
+(pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
+ [5 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/tanh.png>]) [6]
 Chapter 3.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/method.tex
 Missing character: There is no ; in font nullfont!
@@ -1414,13 +1441,13 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-\c@nn@layerindex@counter=\count545
-\c@nn@lastlayerstart@counter=\count546
-\c@nn@thislayerstart@counter=\count547
-\c@nn@lastlayercount@counter=\count548
-\c@nn@thislayercount@counter=\count549
-\c@nn@lastlayerindex@counter=\count550
-\c@nn@thislayerindex@counter=\count551
+\c@nn@layerindex@counter=\count547
+\c@nn@lastlayerstart@counter=\count548
+\c@nn@thislayerstart@counter=\count549
+\c@nn@lastlayercount@counter=\count550
+\c@nn@thislayercount@counter=\count551
+\c@nn@lastlayerindex@counter=\count552
+\c@nn@thislayerindex@counter=\count553
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1447,7 +1474,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [5
+ [7
 
 ]
 \openout5 = `main.pyg'.
@@ -1457,38 +1484,38 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1.
  (c:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-<./figures/model_plot.png, id=182, 408.52625pt x 296.10625pt>
+<./figures/model_plot.png, id=227, 408.52625pt x 296.10625pt>
 File: ./figures/model_plot.png Graphic file (type png)
 <use ./figures/model_plot.png>
 Package pdftex.def Info: ./figures/model_plot.png  used on input line 61.
 (pdftex.def)             Requested size: 227.62204pt x 164.987pt.
-) [6] [7 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png>]
+) [8] [9 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png>]
 Chapter 4.
-(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex) [8
+(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex) [10
 
 ]
 Chapter 5.
-(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex) [9
+(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex) [11
 
 ]
 Overfull \hbox (8.68985pt too wide) in paragraph at lines 33--33
 []\T1/lmr/m/n/12 D. Rumel-hart, G. Hin-ton and R. Wil-li-ams, `  Learn-ing rep-res-ent-a-tions by back-propagating
  []
 
-[10
+[12
 
 ] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [11
+ [13
 
 
 ] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lof)
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- [12
+ [14
 
 
 ]
@@ -1498,7 +1525,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 54E352212082C0AE58BCF7A064512416;961.
+(rerunfilecheck)             Checksum: 1456677B7FE932051F18FE989B4C5172;1169.
 runsystem(del main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1506,18 +1533,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38787 strings out of 480478
- 775002 string characters out of 5903485
- 1518824 words of memory out of 5000000
- 53974 multiletter control sequences out of 15000+600000
- 629253 words of font info for 92 fonts, out of 8000000 for 9000
+ 39165 strings out of 480478
+ 781695 string characters out of 5903485
+ 1526866 words of memory out of 5000000
+ 54333 multiletter control sequences out of 15000+600000
+ 632251 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,104p,1244b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (16 pages, 414764 bytes).
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (18 pages, 447620 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

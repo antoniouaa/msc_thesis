@@ -367,6 +367,8 @@ INPUT c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT c:/texlive/2020/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 INPUT c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 INPUT c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarychains.code.tex
@@ -515,6 +517,16 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/relu.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/relu.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/relu.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/sigmoid.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/sigmoid.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/sigmoid.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/tanh.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/tanh.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/tanh.png
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
@@ -576,5 +588,6 @@ INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
+INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
 INPUT c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
