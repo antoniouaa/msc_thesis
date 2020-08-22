@@ -2201,6 +2201,7 @@
     <bcf:citekey order="16">goodfellow_backprop</bcf:citekey>
     <bcf:citekey order="17">box_jenkins</bcf:citekey>
     <bcf:citekey order="18">fama_efficient_market</bcf:citekey>
+    <bcf:citekey order="19">chollet2015keras</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

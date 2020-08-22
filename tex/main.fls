@@ -530,6 +530,8 @@ INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/tanh.png
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmbx8.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmbx6.tfm
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/arima.tex
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/arima.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/method.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/method.tex
 OUTPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pyg
@@ -552,6 +554,9 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/maevsmse.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/maevsmse.png
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/maevsmse.png
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex

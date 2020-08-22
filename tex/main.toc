@@ -24,20 +24,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Testing citations}{6}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodology}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Autoregressive models}{7}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Time-Series Forecasting}{7}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Methodology}{8}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}ARIMA}{7}{section.3.2}%
+\contentsline {section}{\numberline {4.1}Time-Series Forecasting}{8}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Model Description}{7}{section.3.3}%
+\contentsline {section}{\numberline {4.2}ARIMA}{8}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Results}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.3}Model Description}{8}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Dataset}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.4}Evaluation}{10}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Evaluation Metrics}{10}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Results}{12}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Results}{10}{section.4.3}%
+\contentsline {section}{\numberline {5.1}Dataset}{12}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.2}Evaluation Metrics}{12}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Results}{12}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.6}%

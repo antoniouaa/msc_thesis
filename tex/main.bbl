@@ -48,6 +48,38 @@
       \field{title}{Handbook of Mathematican Functions with Formulas, Graphs and Mathematical Tables}
       \field{year}{1972}
     \endentry
+    \entry{chollet2015keras}{online}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5836fc1fa037e340c8b5591da3207608}{%
+           family={Chollet},
+           familyi={C\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{94f467118488a03ed3386af37a329f60}
+      \strng{fullhash}{94f467118488a03ed3386af37a329f60}
+      \strng{bibnamehash}{94f467118488a03ed3386af37a329f60}
+      \strng{authorbibnamehash}{94f467118488a03ed3386af37a329f60}
+      \strng{authornamehash}{94f467118488a03ed3386af37a329f60}
+      \strng{authorfullhash}{94f467118488a03ed3386af37a329f60}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Keras}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://github.com/fchollet/keras
+      \endverb
+      \verb{url}
+      \verb https://github.com/fchollet/keras
+      \endverb
+    \endentry
     \entry{fama_efficient_market}{article}{}
       \name{author}{1}{}{%
         {{hash=b646153d0a42d68ad3bffe2512b0225f}{%

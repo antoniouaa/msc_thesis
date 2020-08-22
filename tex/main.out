@@ -9,12 +9,14 @@
 \BOOKMARK [1][-]{section.2.4}{ARIMA}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.5}{Testing some math}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.6}{Testing citations}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 12
-\BOOKMARK [1][-]{section.3.1}{Time-Series Forecasting}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.2}{ARIMA}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.3}{Model Description}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{Results}{}% 16
-\BOOKMARK [1][-]{section.4.1}{Dataset}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Evaluation Metrics}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 19
-\BOOKMARK [0][-]{chapter.5}{Conclusions}{}% 20
+\BOOKMARK [0][-]{chapter.3}{Autoregressive models}{}% 12
+\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 13
+\BOOKMARK [1][-]{section.4.1}{Time-Series Forecasting}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{ARIMA}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.3}{Model Description}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.4}{Evaluation}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 18
+\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{Evaluation Metrics}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 21
+\BOOKMARK [0][-]{chapter.6}{Conclusions}{}% 22
