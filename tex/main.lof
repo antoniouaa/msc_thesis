@@ -6,23 +6,23 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Graphical representation of a Neuron\relax }}{2}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Graphical representation of a Neuron\relax }}{3}{figure.caption.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Plot of the Rectified Linear Unit function\relax }}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Plot of the Rectified Linear Unit function\relax }}{4}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Plot of the sigmoid function\relax }}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Plot of the sigmoid function\relax }}{5}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Plot of the hyperbolic tangent function\relax }}{5}{figure.caption.7}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Plot of the hyperbolic tangent function\relax }}{6}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Model Architecture\relax }}{8}{figure.caption.8}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Description of layers\relax }}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Model Architecture\relax }}{9}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of MAE (blue) and MSE (orange). Note how MAE scales linearly with higher error values while MSE scales quadratically, treating higher errors more harshly.\relax }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Description of layers\relax }}{11}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of MAE (blue) and MSE (orange). Note how MAE scales linearly with higher error values while MSE scales quadratically, treating higher errors more harshly.\relax }}{12}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -496,10 +496,11 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.toc
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/introduction.tex
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/introduction.tex
-INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/neural-networks.tex
-INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/neural-networks.tex
+INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/neural-networks.tex
+INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/neural-networks.tex
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
@@ -515,7 +516,6 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/relu.png

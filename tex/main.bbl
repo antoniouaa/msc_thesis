@@ -48,6 +48,32 @@
       \field{title}{Handbook of Mathematican Functions with Formulas, Graphs and Mathematical Tables}
       \field{year}{1972}
     \endentry
+    \entry{bachelier}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b95a1690158e8900471f80cfdb51fb6}{%
+           family={Bachelier},
+           familyi={B\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b95a1690158e8900471f80cfdb51fb6}
+      \strng{fullhash}{2b95a1690158e8900471f80cfdb51fb6}
+      \strng{bibnamehash}{2b95a1690158e8900471f80cfdb51fb6}
+      \strng{authorbibnamehash}{2b95a1690158e8900471f80cfdb51fb6}
+      \strng{authornamehash}{2b95a1690158e8900471f80cfdb51fb6}
+      \strng{authorfullhash}{2b95a1690158e8900471f80cfdb51fb6}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annales scientifiques de l’Ecole Normale Superieure}
+      \field{number}{17}
+      \field{title}{The Theory of Speculation}
+      \field{volume}{3}
+      \field{year}{1900}
+      \field{pages}{21\bibrangedash 86}
+      \range{pages}{66}
+    \endentry
     \entry{chollet2015keras}{online}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -196,6 +222,35 @@
       \field{title}{Deep Learning}
       \field{year}{2016}
     \endentry
+    \entry{grossman-stiglitz}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a0e1f164ed9c0f1df4d104f87bd0666a}{%
+           family={Grossman},
+           familyi={G\bibinitperiod},
+           given={Sanford\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cb57f4b2aeede8f5865afde7b8453d40}{%
+           family={Stiglitz},
+           familyi={S\bibinitperiod},
+           given={Joseph\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d9f174016f1b5b458a1527d0f6cbd93}
+      \strng{fullhash}{6d9f174016f1b5b458a1527d0f6cbd93}
+      \strng{bibnamehash}{6d9f174016f1b5b458a1527d0f6cbd93}
+      \strng{authorbibnamehash}{6d9f174016f1b5b458a1527d0f6cbd93}
+      \strng{authornamehash}{6d9f174016f1b5b458a1527d0f6cbd93}
+      \strng{authorfullhash}{6d9f174016f1b5b458a1527d0f6cbd93}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{3}
+      \field{title}{On the Impossibility of Informationally Efficient Markets}
+      \field{volume}{70}
+      \field{year}{1980}
+    \endentry
     \entry{relu}{article}{}
       \name{author}{2}{}{%
         {{hash=e1eac9fa775939e49a8738a5c3457b40}{%
@@ -309,6 +364,41 @@
       \field{journaltitle}{Stanford Press}
       \field{title}{Rectifier Nonlinearities Improve Neural Network Acoustic Models}
       \field{year}{2014}
+    \endentry
+    \entry{mandelbrot}{article}{}
+      \name{author}{1}{}{%
+        {{hash=83ced72c407b4739f234545c111ae19f}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{fullhash}{83ced72c407b4739f234545c111ae19f}
+      \strng{bibnamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authorbibnamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authornamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authorfullhash}{83ced72c407b4739f234545c111ae19f}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Business}
+      \field{number}{4}
+      \field{title}{The Variation of Certain Speculative Prices}
+      \field{volume}{36}
+      \field{year}{1963}
+      \field{pages}{394\bibrangedash 419}
+      \range{pages}{26}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2350970
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2350970
+      \endverb
     \endentry
     \entry{nervous_activity_warrenpitts}{article}{}
       \name{author}{2}{}{%
@@ -436,6 +526,34 @@
       \field{subtitle}{A Modern Approach}
       \field{title}{Artificial Intelligence}
       \field{year}{2010}
+    \endentry
+    \entry{samuelson}{book}{}
+      \name{author}{1}{}{%
+        {{hash=78270c793a8e0c5fa92c64dca4b6a2b8}{%
+           family={Samuelson},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{fullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{bibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authorbibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authornamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \strng{authorfullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The World Scientific Handbook of Futures Markets}
+      \field{chapter}{Chapter 2}
+      \field{title}{Proof that Properly Anticipated Prices Fluctuate Randomly}
+      \field{year}{1965}
+      \field{pages}{25\bibrangedash 38}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1142/9789814566926_0002
+      \endverb
     \endentry
     \entry{backprop}{book}{}
       \name{author}{1}{}{%

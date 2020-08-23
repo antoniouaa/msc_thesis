@@ -4,44 +4,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Overview of Neural Networks}{2}{chapter.2}%
+\contentsline {section}{\numberline {1.1}Problem statement}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Neurons}{2}{section.2.1}%
+\contentsline {chapter}{\numberline {2}Overview of Neural Networks}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Activation Functions}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.1}Neurons}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Rectified Linear Unit}{3}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Activation Functions}{4}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Sigmoid}{4}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Rectified Linear Unit}{4}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Hyperbolic tangent}{4}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Sigmoid}{5}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Backpropagation}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Hyperbolic tangent}{5}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}ARIMA}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.3}Backpropagation}{6}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Testing some math}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.4}Testing some math}{7}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Testing citations}{6}{section.2.6}%
+\contentsline {section}{\numberline {2.5}Testing citations}{7}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Autoregressive models}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Autoregressive models}{8}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Methodology}{8}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Methodology}{9}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Time-Series Forecasting}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Time-Series Forecasting}{9}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}ARIMA}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.2}ARIMA}{9}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Model Description}{8}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Model Description}{9}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Evaluation}{10}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Evaluation}{11}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Results}{12}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Results}{13}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Dataset}{12}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Dataset}{13}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Evaluation Metrics}{12}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Evaluation Metrics}{13}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Results}{12}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Results}{13}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusions}{13}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Conclusions}{14}{chapter.6}%

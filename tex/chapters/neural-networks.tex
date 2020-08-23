@@ -3,10 +3,10 @@
 
 In this section, we provide a brief history of neural networks in the context of finance and time series prediction, as well as a more detailed description of the architecture used in the paper.
 
-Neural networks are systems largely belonging to the study of Machine Learning, typically associated with solving computational problems that other models and algorithms struggle to. Loosely based on biological neural networks, like the brain, artificial neural networks are collections of neuron-like nodes and links that connect them. Their resemblance to the brain in terms of architecture is part of what allowed neural networks to grow in computing power and popularity over the past decades, from their emergence in the 1940s\cite{nervenets}\cite{nervous_activity_warrenpitts}.
+Neural networks are systems largely belonging to the study of Machine Learning, typically associated with solving computational problems that other models and algorithms struggle to. Loosely based on biological neural networks, like the brain, artificial neural networks are collections of neuron-like nodes and links that connect them. Their resemblance to the brain in terms of architecture is part of what allowed neural networks to grow in computing power and popularity over the past decades, from their emergence in the 1940s.\citesuper{nervenets}\citesuper{nervous_activity_warrenpitts}
 
 \section{Neurons}
-Neurons are the artificial equivalent of a biological neuron and are the fundamental components of a neural network. Neurons perform three tasks, receive input from other neurons, apply an activation function to the input and output a value to other neurons. Neurons in the network are connected and each of these connections carries a signal and has certain weight attached to it, which affects the signal carried\cite{machine-learning-dict}\cite{ai_book}. Graphically, a neuron could be represented in figure \ref{tab:neuron}.
+Neurons are the artificial equivalent of a biological neuron and are the fundamental components of a neural network. Neurons perform three tasks, receive input from other neurons, apply an activation function to the input and output a value to other neurons. Neurons in the network are connected and each of these connections carries a signal and has certain weight attached to it, which affects the signal carried.\citesuper{machine-learning-dict}\citesuper{ai_book} Graphically, a neuron could be represented in figure \ref{tab:neuron}.
 
 \begin{figure}[h]
     \centering
@@ -73,7 +73,7 @@ In mathematical terms, the step function, or the unit step function, is defined 
     \end{cases}
 \end{align}
 
-where $H(x)$ is the Heaviside step function\cite{step_function}, and at value 0, an output of $H(0) = 1$ is selected and passed down to the next layer of neurons.
+where $H(x)$ is the Heaviside step function\citesuper{step_function}, and at value 0, an output of $H(0) = 1$ is selected and passed down to the next layer of neurons.
 
 \subsection{Rectified Linear Unit}
 The Rectified Linear Unit (ReLU) is an activation function mathematically defined as 
@@ -92,7 +92,7 @@ where $x$ is the neuron's input value. Plotted on cartesian axes, the graph show
     \label{tab:relu}
 \end{figure}
 
-ReLU was first introduced in the 2000 and 2001 Hahnloser papers\cite{relu}. ReLU is currently the most widely used activation function\cite{acti-functions} and has found great success in training deep neural networks primarily in the fields of computer vision\cite{relu-vision} and speech recognition\cite{relu-acoustics}.
+ReLU was first introduced in the 2000 and 2001 Hahnloser papers.\citesuper{relu} ReLU is currently the most widely used activation function\citesuper{acti-functions} and has found great success in training deep neural networks primarily in the fields of computer vision\citesuper{relu-vision} and speech recognition.\citesuper{relu-acoustics}
 
 \subsection{Sigmoid}
 The Sigmoid function is a logistic activation function, mathematically defined as 
@@ -135,7 +135,7 @@ Unlike the standard sigmoid function, tanh can output negative values for negati
 \end{figure}
 
 \section{Backpropagation}
-The backpropagation algorithm is a key feature of neural networks as it allowed for fast and efficient training of multi-layered networks by distributing error values back through the layers of the network, adjusting the weights in the connections between neurons respectively\cite{backprop}. In more detail, backpropagation functions compute the gradient $\nabla_{x}f(\mathbf{x}, \mathbf{y})$ numerically in a simple and inexpensive procedure\cite{rumelhart_backprop}. What computing the gradient really means is calculating the derivative of the loss function in the model, with the loss function being a selected error function.
+The backpropagation algorithm is a key feature of neural networks as it allowed for fast and efficient training of multi-layered networks by distributing error values back through the layers of the network, adjusting the weights in the connections between neurons respectively.\citesuper{backprop} In more detail, backpropagation functions compute the gradient $\nabla_{x}f(\mathbf{x}, \mathbf{y})$ numerically in a simple and inexpensive procedure.\citesuper{rumelhart_backprop} What computing the gradient really means is calculating the derivative of the loss function in the model, with the loss function being a selected error function.
 
 \newcommand{\R}{\mathbb{R}}
 
@@ -151,10 +151,7 @@ beyond the scalar case into vector notation, such that
     \nabla_{x}z = (\frac{\delta y}{\delta x})^T \nabla_{y}z
 \end{align}
 
-where $\frac{\delta y}{\delta x}$ is a Jacobian matrix of $g$. The backpropagation algorithm is essentially a fast computation of this Jacobian gradient for each connection and node in the network\cite{goodfellow_backprop}.
-
-\section{ARIMA}
-The prices of stocks can be modelled as non-linear time series, which have been at the centre of attention in the finance world since the 1970s with George Box and Gwilym Jenkins popularised their Box-Jenkins method for finding the best-fit of a time series model\cite{box_jenkins}.
+where $\frac{\delta y}{\delta x}$ is a Jacobian matrix of $g$. The backpropagation algorithm is essentially a fast computation of this Jacobian gradient for each connection and node in the network.\citesuper{goodfellow_backprop}
 
 \section{Testing some math}
 Here are two equations:
@@ -167,5 +164,5 @@ And here is some text with some nice inline math, $(x, y)$ wow $\gamma$ so cool 
 
 
 \section{Testing citations}
-This is Fama\cite{fama_efficient_market} and this is Goodfellow.
+This is Fama\citesuper{fama_efficient_market} and this is Goodfellow.
 This is another GAN citation.

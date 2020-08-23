@@ -384,3 +384,7 @@
 	% Print out the bibliography with the given title
 	\printbibliography[title=#1]
 }
+
+\newcommand{\citesuper}[1]{%
+    \textsuperscript{\cite{#1}}%
+}%
