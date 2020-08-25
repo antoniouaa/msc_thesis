@@ -153,16 +153,7 @@ beyond the scalar case into vector notation, such that
 
 where $\frac{\delta y}{\delta x}$ is a Jacobian matrix of $g$. The backpropagation algorithm is essentially a fast computation of this Jacobian gradient for each connection and node in the network.\citesuper{goodfellow_backprop}
 
-\section{Testing some math}
-Here are two equations:
+\section{LSTM}
+Long Short-Term Memory (LSTM) is a type of recurrent neural network first introduced in \citeyear{lstm} by \citeauthor{lstm}. Like all recurrent networks, LSTM differs from feed-forward networks by incorporating cyclical connections between neurons.
 
-
-
-
-
-And here is some text with some nice inline math, $(x, y)$ wow $\gamma$ so cool $\rho$.
-
-
-\section{Testing citations}
-This is Fama\citesuper{fama_efficient_market} and this is Goodfellow.
-This is another GAN citation.
+The LSTM was introduced specifically to address the two problems of the \emph{vanishing gradient problem} and the \emph{exploding gradient problem}. The two problems are closely linked problems regarding the propagation of errors in deep neural networks. In short, the two gradient problems appear when attempting to train networks with gradient-based learning, iterative methods for computing the gradient at each sample point, and either cause the gradient to be "vanishingly" small (\emph{vanishing gradient}) or to "explosively" increase (\emph{exploding gradient}).\citesuper{vanishing}\citesuper{rnn_vanishing}

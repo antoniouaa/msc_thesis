@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  23 AUG 2020 04:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  25 AUG 2020 01:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1395,8 +1395,8 @@ Chapter 1.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/introduction.texpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.12 O
-      f course, the EMH being near or even completely untestable means that ... [1
+l.11 
+      [1
 
 
 ]) [2]
@@ -1411,19 +1411,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [3
 
 ]
-<./figures/relu.png, id=185, 433.62pt x 289.08pt>
+<./figures/relu.png, id=195, 433.62pt x 289.08pt>
 File: ./figures/relu.png Graphic file (type png)
 <use ./figures/relu.png>
 Package pdftex.def Info: ./figures/relu.png  used on input line 90.
 (pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
  [4 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/relu.png>]
-<./figures/sigmoid.png, id=202, 433.62pt x 289.08pt>
+<./figures/sigmoid.png, id=212, 433.62pt x 289.08pt>
 File: ./figures/sigmoid.png Graphic file (type png)
 <use ./figures/sigmoid.png>
 Package pdftex.def Info: ./figures/sigmoid.png  used on input line 116.
 (pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
  [5 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/sigmoid.png>]
-<./figures/tanh.png, id=217, 433.62pt x 289.08pt>
+<./figures/tanh.png, id=227, 433.62pt x 289.08pt>
 File: ./figures/tanh.png Graphic file (type png)
 <use ./figures/tanh.png>
 Package pdftex.def Info: ./figures/tanh.png  used on input line 132.
@@ -1488,13 +1488,13 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1.
  (c:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
-<./figures/model_plot.png, id=255, 408.52625pt x 296.10625pt>
+<./figures/model_plot.png, id=268, 408.52625pt x 296.10625pt>
 File: ./figures/model_plot.png Graphic file (type png)
 <use ./figures/model_plot.png>
 Package pdftex.def Info: ./figures/model_plot.png  used on input line 62.
 (pdftex.def)             Requested size: 227.62204pt x 164.987pt.
  [10] [11 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png>]
-<./figures/maevsmse.png, id=271, 433.62pt x 289.08pt>
+<./figures/maevsmse.png, id=284, 433.62pt x 289.08pt>
 File: ./figures/maevsmse.png Graphic file (type png)
 <use ./figures/maevsmse.png>
 Package pdftex.def Info: ./figures/maevsmse.png  used on input line 88.
@@ -1507,14 +1507,14 @@ Chapter 5.
 Chapter 6.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex) [14
 
+] [15
+
 ]
 Overfull \hbox (8.68985pt too wide) in paragraph at lines 36--36
 []\T1/lmr/m/n/12 D. Rumel-hart, G. Hin-ton and R. Wil-li-ams, `  Learn-ing rep-res-ent-a-tions by back-propagating
  []
 
-[15
-
-] [16] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lot)
+[16] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
@@ -1535,7 +1535,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F99F11EA1A1F1F7187B7F4FC54B4250;1295.
+(rerunfilecheck)             Checksum: 6D1ED64C46E127275D78E9169B4B5A0D;1281.
 runsystem(del main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1543,18 +1543,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39220 strings out of 480478
- 783128 string characters out of 5903485
- 1527475 words of memory out of 5000000
- 54371 multiletter control sequences out of 15000+600000
+ 39255 strings out of 480478
+ 784295 string characters out of 5903485
+ 1527954 words of memory out of 5000000
+ 54399 multiletter control sequences out of 15000+600000
  632251 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,104p,1244b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,16n,104p,2011b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (22 pages, 472715 bytes).
+Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (22 pages, 476896 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 387 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
  219 words of extra memory for PDF output out of 10000 (max. 10000000)
 

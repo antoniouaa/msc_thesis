@@ -74,6 +74,57 @@
       \field{pages}{21\bibrangedash 86}
       \range{pages}{66}
     \endentry
+    \entry{blackEMH}{article}{}
+      \name{author}{1}{}{%
+        {{hash=93277dfc1ebe8d44428e74799781e4d7}{%
+           family={Black},
+           familyi={B\bibinitperiod},
+           given={Fischer},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{fullhash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{bibnamehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{authorbibnamehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{authornamehash}{93277dfc1ebe8d44428e74799781e4d7}
+      \strng{authorfullhash}{93277dfc1ebe8d44428e74799781e4d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Finance}
+      \field{number}{3}
+      \field{title}{Noise}
+      \field{volume}{41}
+      \field{year}{1986}
+      \verb{doi}
+      \verb 10.1111/j.1540-6261.1986.tb04513.x
+      \endverb
+    \endentry
+    \entry{burton}{book}{}
+      \name{author}{1}{}{%
+        {{hash=16808917aa627918a8c2b99097f66607}{%
+           family={Burton},
+           familyi={B\bibinitperiod},
+           given={Malkiel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WW Norton \& Company Inc}%
+      }
+      \strng{namehash}{16808917aa627918a8c2b99097f66607}
+      \strng{fullhash}{16808917aa627918a8c2b99097f66607}
+      \strng{bibnamehash}{16808917aa627918a8c2b99097f66607}
+      \strng{authorbibnamehash}{16808917aa627918a8c2b99097f66607}
+      \strng{authornamehash}{16808917aa627918a8c2b99097f66607}
+      \strng{authorfullhash}{16808917aa627918a8c2b99097f66607}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Random Walk Down Wall Street}
+      \field{year}{1973}
+    \endentry
     \entry{chollet2015keras}{online}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -106,6 +157,60 @@
       \verb https://github.com/fchollet/keras
       \endverb
     \endentry
+    \entry{cootner}{book}{}
+      \name{author}{1}{}{%
+        {{hash=42ae9b5415d15218bbfbf17b5d917924}{%
+           family={Cootner},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{42ae9b5415d15218bbfbf17b5d917924}
+      \strng{fullhash}{42ae9b5415d15218bbfbf17b5d917924}
+      \strng{bibnamehash}{42ae9b5415d15218bbfbf17b5d917924}
+      \strng{authorbibnamehash}{42ae9b5415d15218bbfbf17b5d917924}
+      \strng{authornamehash}{42ae9b5415d15218bbfbf17b5d917924}
+      \strng{authorfullhash}{42ae9b5415d15218bbfbf17b5d917924}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Random Character of Stock Market Prices}
+      \field{year}{1964}
+    \endentry
+    \entry{fama-random-walks}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b646153d0a42d68ad3bffe2512b0225f}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{fullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{bibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
+      \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Analysts Journal}
+      \field{number}{5}
+      \field{title}{Random Walks in Stock Market Prices}
+      \field{volume}{21}
+      \field{year}{1965}
+      \field{pages}{55\bibrangedash 59}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.2469/faj.v21.n5.55
+      \endverb
+    \endentry
     \entry{fama_efficient_market}{article}{}
       \name{author}{1}{}{%
         {{hash=b646153d0a42d68ad3bffe2512b0225f}{%
@@ -120,6 +225,7 @@
       \strng{authorbibnamehash}{b646153d0a42d68ad3bffe2512b0225f}
       \strng{authornamehash}{b646153d0a42d68ad3bffe2512b0225f}
       \strng{authorfullhash}{b646153d0a42d68ad3bffe2512b0225f}
+      \field{extraname}{2}
       \field{sortinit}{F}
       \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
       \field{labelnamesource}{author}
@@ -277,6 +383,35 @@
       \field{journaltitle}{NIPS}
       \field{title}{Permitted and Forbidden Sets in Symmetric Threshold-Linear Networks}
       \field{year}{2001}
+    \endentry
+    \entry{lstm}{article}{}
+      \name{author}{2}{}{%
+        {{hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={Sepp},
+           giveni={S\bibinitperiod}}}%
+        {{hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{fullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{bibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorbibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computation}
+      \field{number}{8}
+      \field{title}{Long short-term memory}
+      \field{volume}{9}
+      \field{year}{1997}
     \endentry
     \entry{tech_analysis}{book}{}
       \name{author}{2}{}{%
@@ -602,6 +737,76 @@
       \field{labeltitlesource}{title}
       \field{title}{The Machine Learning Dictionary}
       \field{year}{2009}
+    \endentry
+    \entry{vanishing}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f120e0e38ce8f1468806ca76f799b1c5}{%
+           family={Y},
+           familyi={Y\bibinitperiod},
+           given={Bengio},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6c1bfd4940e6ebb8be988fa756f25957}{%
+           family={P},
+           familyi={P\bibinitperiod},
+           given={Simard},
+           giveni={S\bibinitperiod}}}%
+        {{hash=353c12fd2c2cadcded427c6ae8b4e2d3}{%
+           family={P},
+           familyi={P\bibinitperiod},
+           given={Frasconi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{addb4813153aae9f60c3f3ffd4cab76a}
+      \strng{fullhash}{addb4813153aae9f60c3f3ffd4cab76a}
+      \strng{bibnamehash}{addb4813153aae9f60c3f3ffd4cab76a}
+      \strng{authorbibnamehash}{addb4813153aae9f60c3f3ffd4cab76a}
+      \strng{authornamehash}{addb4813153aae9f60c3f3ffd4cab76a}
+      \strng{authorfullhash}{addb4813153aae9f60c3f3ffd4cab76a}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks}
+      \field{number}{2}
+      \field{title}{Learning long-term dependencies with gradient descent is difficult}
+      \field{volume}{5}
+      \field{year}{1994}
+      \field{pages}{157\bibrangedash 166}
+      \range{pages}{10}
+    \endentry
+    \entry{rnn_vanishing}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f120e0e38ce8f1468806ca76f799b1c5}{%
+           family={Y},
+           familyi={Y\bibinitperiod},
+           given={Bengio},
+           giveni={B\bibinitperiod}}}%
+        {{hash=45be4e7aab4aa3c268be9685fd7520d2}{%
+           family={T},
+           familyi={T\bibinitperiod},
+           given={Mikolov},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8c8efe4bafdeea640d02160f07c09720}{%
+           family={R},
+           familyi={R\bibinitperiod},
+           given={Pascanu},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f196dd82d73d6bcb4a3f5fb60185c9e}
+      \strng{fullhash}{6f196dd82d73d6bcb4a3f5fb60185c9e}
+      \strng{bibnamehash}{6f196dd82d73d6bcb4a3f5fb60185c9e}
+      \strng{authorbibnamehash}{6f196dd82d73d6bcb4a3f5fb60185c9e}
+      \strng{authornamehash}{6f196dd82d73d6bcb4a3f5fb60185c9e}
+      \strng{authorfullhash}{6f196dd82d73d6bcb4a3f5fb60185c9e}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the difficulty of training Recurrent Neural Networks}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 1211.5063
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
