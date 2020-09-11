@@ -73,7 +73,7 @@ In mathematical terms, the step function, or the unit step function, is defined 
     \end{cases}
 \end{align}
 
-where $H(x)$ is the Heaviside step function\citesuper{step_function}, and at value 0, an output of $H(0) = 1$ is selected and passed down to the next layer of neurons.
+where $H(x)$ is the Heaviside step function\citesuper{step_function}. At value 0, an output of $H(0) = 1$ is selected and passed down to the next layer of neurons.
 
 \subsection{Rectified Linear Unit}
 The Rectified Linear Unit (ReLU) is an activation function mathematically defined as 
@@ -92,7 +92,7 @@ where $x$ is the neuron's input value. Plotted on cartesian axes, the graph show
     \label{tab:relu}
 \end{figure}
 
-ReLU was first introduced in the 2000 and 2001 Hahnloser papers.\citesuper{relu} ReLU is currently the most widely used activation function\citesuper{acti-functions} and has found great success in training deep neural networks primarily in the fields of computer vision\citesuper{relu-vision} and speech recognition.\citesuper{relu-acoustics}
+ReLU was first introduced in the 2000 and 2001 Hahnloser papers.\citesuper{relu2000}\citesuper{relu} ReLU is currently the most widely used activation function\citesuper{acti-functions} and has found great success in training deep neural networks primarily in the fields of computer vision\citesuper{relu-vision} and speech recognition.\citesuper{relu-acoustics}
 
 \subsection{Sigmoid}
 The Sigmoid function is a logistic activation function, mathematically defined as 
@@ -157,3 +157,21 @@ where $\frac{\delta y}{\delta x}$ is a Jacobian matrix of $g$. The backpropagati
 Long Short-Term Memory (LSTM) is a type of recurrent neural network first introduced in \citeyear{lstm} by \citeauthor{lstm}. Like all recurrent networks, LSTM differs from feed-forward networks by incorporating cyclical connections between neurons.
 
 The LSTM was introduced specifically to address the two problems of the \emph{vanishing gradient problem} and the \emph{exploding gradient problem}. The two problems are closely linked problems regarding the propagation of errors in deep neural networks. In short, the two gradient problems appear when attempting to train networks with gradient-based learning, iterative methods for computing the gradient at each sample point, and either cause the gradient to be "vanishingly" small (\emph{vanishing gradient}) or to "explosively" increase (\emph{exploding gradient}).\citesuper{vanishing}\citesuper{rnn_vanishing}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=100mm]{lstm_cell.png}
+        \label{tab:lstm_cell}
+    \end{subfigure}%
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[height=60mm]{lstm_objects_info_matrix.png}
+        \label{tab:lstm_cell_info}
+    \end{subfigure}
+    \caption{Diagram of the LSTM cell}
+\end{figure}
+
+

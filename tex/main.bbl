@@ -357,6 +357,46 @@
       \field{volume}{70}
       \field{year}{1980}
     \endentry
+    \entry{relu2000}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e1eac9fa775939e49a8738a5c3457b40}{%
+           family={Hahnloser},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelimb H\bibnamedelima R},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=65c1f97de87755142835fe4dc3568075}{%
+           family={Sarpeshkar},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=69a8ae5ec501e3650d76c4041333c6b5}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={M\bibnamedelima Mahowald},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{9048dde170eee2b04229b7eb8d3f547e}
+      \strng{fullhash}{9048dde170eee2b04229b7eb8d3f547e}
+      \strng{bibnamehash}{9048dde170eee2b04229b7eb8d3f547e}
+      \strng{authorbibnamehash}{9048dde170eee2b04229b7eb8d3f547e}
+      \strng{authornamehash}{9048dde170eee2b04229b7eb8d3f547e}
+      \strng{authorfullhash}{9048dde170eee2b04229b7eb8d3f547e}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Digital selection and analogue amplification coexist in a cortex-inspired silicon circuit}
+      \field{volume}{405}
+      \field{year}{2000}
+      \field{pages}{947\bibrangedash 951}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1038/35016072
+      \endverb
+    \endentry
     \entry{relu}{article}{}
       \name{author}{2}{}{%
         {{hash=e1eac9fa775939e49a8738a5c3457b40}{%
