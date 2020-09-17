@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  11 SEP 2020 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  17 SEP 2020 16:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1451,6 +1451,30 @@ Chapter 3.
 ]
 Chapter 4.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/method.tex
+<./figures/smallACF.png, id=267, 433.62pt x 289.08pt>
+File: ./figures/smallACF.png Graphic file (type png)
+<use ./figures/smallACF.png>
+Package pdftex.def Info: ./figures/smallACF.png  used on input line 22.
+(pdftex.def)             Requested size: 369.88582pt x 246.60135pt.
+ [9
+
+]
+<./figures/PACF.png, id=274, 433.62pt x 289.08pt>
+File: ./figures/PACF.png Graphic file (type png)
+<use ./figures/PACF.png>
+Package pdftex.def Info: ./figures/PACF.png  used on input line 31.
+(pdftex.def)             Requested size: 369.88582pt x 246.60135pt.
+ [10 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/smallACF.png> <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/PACF.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 40.
+ (c:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+\openout5 = `main.pyg'.
+
+ (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/default-pyg-prefix.pygstyle) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/default.pygstyle) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/C2E51A15F55441D20875D57281243B03EED0F18233776CBE5B53FF396AA7B09D.pygtex
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 4.
+)
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1494,54 +1518,52 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [9
 
-]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11]
 \openout5 = `main.pyg'.
 
- (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/default-pyg-prefix.pygstyle) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/default.pygstyle) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/CD07AB5C3CDB663692C80EF39F96FD23EED0F18233776CBE5B53FF396AA7B09D.pygtex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1.
- (c:/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-<./figures/model_plot.png, id=275, 408.52625pt x 296.10625pt>
+ (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/CD07AB5C3CDB663692C80EF39F96FD23EED0F18233776CBE5B53FF396AA7B09D.pygtex)
+<./figures/model_plot.png, id=294, 408.52625pt x 296.10625pt>
 File: ./figures/model_plot.png Graphic file (type png)
 <use ./figures/model_plot.png>
-Package pdftex.def Info: ./figures/model_plot.png  used on input line 62.
+Package pdftex.def Info: ./figures/model_plot.png  used on input line 111.
 (pdftex.def)             Requested size: 227.62204pt x 164.987pt.
- [10] [11 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png>]
-<./figures/maevsmse.png, id=291, 433.62pt x 289.08pt>
+ [12] [13 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png>]
+<./figures/maevsmse.png, id=308, 433.62pt x 289.08pt>
 File: ./figures/maevsmse.png Graphic file (type png)
 <use ./figures/maevsmse.png>
-Package pdftex.def Info: ./figures/maevsmse.png  used on input line 88.
+Package pdftex.def Info: ./figures/maevsmse.png  used on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
-) [12 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/maevsmse.png>]
+) [14 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/maevsmse.png>]
 Chapter 5.
-(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex) [13
+(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex) [15
 
 ]
 Chapter 6.
-(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex) [14
+(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex) [16
 
-] [15
+] [17
 
 ]
 Overfull \hbox (8.68985pt too wide) in paragraph at lines 36--36
 []\T1/lmr/m/n/12 D. Rumel-hart, G. Hin-ton and R. Wil-li-ams, `  Learn-ing rep-res-ent-a-tions by back-propagating
  []
 
-[16] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lot)
+[18] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [17
+ [19
 
 
 ] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lof)
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
- [18
+ [20
 
 
 ]
@@ -1559,18 +1581,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39282 strings out of 480478
- 785022 string characters out of 5903485
- 1528241 words of memory out of 5000000
- 54422 multiletter control sequences out of 15000+600000
- 632251 words of font info for 93 fonts, out of 8000000 for 9000
+ 39310 strings out of 480478
+ 785902 string characters out of 5903485
+ 1530572 words of memory out of 5000000
+ 54439 multiletter control sequences out of 15000+600000
+ 632569 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,104p,2011b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (22 pages, 533997 bytes).
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (24 pages, 583092 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
- 96 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

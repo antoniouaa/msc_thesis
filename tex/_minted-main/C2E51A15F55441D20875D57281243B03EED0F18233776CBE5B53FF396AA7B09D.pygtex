@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+      \PYG{n}{train}\PYG{p}{,} \PYG{n}{test} \PYG{o}{=} \PYG{n}{X}\PYG{p}{[:}\PYG{n}{train\PYGZus{}size}\PYG{p}{],} \PYG{n}{X}\PYG{p}{[}\PYG{n}{train\PYGZus{}size}\PYG{p}{:]}
+      \PYG{n}{predictions} \PYG{o}{=} \PYG{p}{[]}
+      \PYG{k}{for} \PYG{n}{t}\PYG{p}{,} \PYG{n}{\PYGZus{}} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n}{test}\PYG{p}{):}
+          \PYG{n}{model} \PYG{o}{=} \PYG{n}{ARIMA}\PYG{p}{(}\PYG{n}{train}\PYG{p}{,} \PYG{n}{order}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{))}
+          \PYG{n}{model\PYGZus{}fit} \PYG{o}{=} \PYG{n}{model}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{disp}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+          \PYG{n}{yhat} \PYG{o}{=} \PYG{n}{model\PYGZus{}fit}\PYG{o}{.}\PYG{n}{forecast}\PYG{p}{()[}\PYG{l+m+mi}{0}\PYG{p}{]}
+          \PYG{n}{predictions}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{yhat}\PYG{p}{)}
+          \PYG{n}{train}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{test}\PYG{p}{[}\PYG{n}{t}\PYG{p}{])}
+
+      \PYG{n}{mse} \PYG{o}{=} \PYG{n}{mean\PYGZus{}squared\PYGZus{}error}\PYG{p}{(}\PYG{n}{test}\PYG{p}{,} \PYG{n}{predictions}\PYG{p}{)}
+      \PYG{n}{mae} \PYG{o}{=} \PYG{n}{mean\PYGZus{}absolute\PYGZus{}error}\PYG{p}{(}\PYG{n}{test}\PYG{p}{,} \PYG{n}{predictions}\PYG{p}{)}
+\end{Verbatim}

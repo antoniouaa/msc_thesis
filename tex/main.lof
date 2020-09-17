@@ -20,11 +20,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Model Architecture\relax }}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Autocorrelation function before any differencing\relax }}{10}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Description of layers\relax }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Partial Autocorrelation Function\relax }}{10}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of MAE (blue) and MSE (orange). Note how MAE scales linearly with higher error values while MSE scales quadratically, treating higher errors more harshly.\relax }}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Walk Forward Validation of ARIMA model using the \texttt {statsmodels} library\relax }}{11}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Architecture\relax }}{12}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Description of layers\relax }}{13}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of MAE (blue) and MSE (orange). Note how MAE scales linearly with higher error values while MSE scales quadratically, treating higher errors more harshly.\relax }}{14}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
