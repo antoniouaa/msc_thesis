@@ -1,1 +1,15 @@
-...
+Averaging the values for the two models across all stocks further shows the superiority of the LSTM's performance compared to the traditional ARIMA model.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{r|l|l}
+        \hline
+        \textbf{Model}      & \textbf{MAE} & \textbf{MSE} \\ 
+        \hline
+        LSTM & \underline{0.013100} & \underline{0.000332}\\
+        \hline
+        ARIMA & 0.017047 & 0.000523\\
+    \end{tabular}
+    \caption{Average MAE and MSE results}
+    \label{tab:averaqe_error_values_models}
+\end{table}
