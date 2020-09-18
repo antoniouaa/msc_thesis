@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  17 SEP 2020 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.17)  18 SEP 2020 18:39
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1104,28 +1104,113 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box94
 \enit@count@id=\count537
 \enitdp@description=\count538
+) (c:/texlive/2020/texmf-dist/tex/latex/csvsimple/csvsimple.sty
+Package: csvsimple 2019/04/09 version 1.21 LaTeX CSV file processing
+\csv@file=\read7
+\c@csvinputline=\count539
+\c@csvrow=\count540
+\c@csvcol=\count541
+\csv@out=\write7
+) (c:/texlive/2020/texmf-dist/tex/latex/numprint/numprint.sty
+Package: numprint 2012/08/20 v1.39 Print numbers (HH)
+ (c:/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen304
+\ar@mcellbox=\box95
+\extrarowheight=\dimen305
+\NC@list=\toks46
+\extratabsurround=\skip100
+\backup@length=\skip101
+\ar@cellbox=\box96
+)
+\c@nprt@mantissa@digitsbefore=\count542
+\c@nprt@mantissa@digitsafter=\count543
+\c@nprt@exponent@digitsbefore=\count544
+\c@nprt@exponent@digitsafter=\count545
+\nprt@digitwidth=\skip102
+\nprt@sepwidth=\skip103
+\nprt@decimalwidth=\skip104
+\nprt@blockwidth=\skip105
+\nprt@digittoks=\toks47
+\nprt@pretoks=\toks48
+\nprt@posttoks=\toks49
+\nprt@thisdigit=\count546
+\nprt@curpos=\count547
+\nprt@rndpos=\count548
+\c@nprt@digitsfirstblock=\count549
+\c@nprt@blockcnt=\count550
+\c@nprt@cntprint=\count551
+ No configuration file `numprint.cfg' found.) (c:/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen306
+\c@pgfplots@coordindex=\count552
+\c@pgfplots@scanlineindex=\count553
+ (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count554
+) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count555
+\t@pgfplotstable@a=\toks53
+) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count556
+ (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen307
+\pgfdecoratedremainingdistance=\dimen308
+\pgfdecoratedinputsegmentcompleteddistance=\dimen309
+\pgfdecoratedinputsegmentremainingdistance=\dimen310
+\pgf@decorate@distancetomove=\dimen311
+\pgf@decorate@repeatstate=\count557
+\pgfdecorationsegmentamplitude=\dimen312
+\pgfdecorationsegmentlength=\dimen313
+)
+\tikz@lib@dec@box=\box97
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count558
+\pgfplots@xmin@reg=\dimen314
+\pgfplots@xmax@reg=\dimen315
+\pgfplots@ymin@reg=\dimen316
+\pgfplots@ymax@reg=\dimen317
+\pgfplots@zmin@reg=\dimen318
+\pgfplots@zmax@reg=\dimen319
+) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (c:/texlive/2020/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplotstable 2020/02/29 v1.17 Table typesetting and Pretty-printing (1.17)
+ (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex))) (c:/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen320
+\lightrulewidth=\dimen321
+\cmidrulewidth=\dimen322
+\belowrulesep=\dimen323
+\belowbottomsep=\dimen324
+\aboverulesep=\dimen325
+\abovetopsep=\dimen326
+\cmidrulesep=\dimen327
+\cmidrulekern=\dimen328
+\defaultaddspace=\dimen329
+\@cmidla=\count559
+\@cmidlb=\count560
+\@aboverulesep=\dimen330
+\@belowrulesep=\dimen331
+\@thisruleclass=\count561
+\@lastruleclass=\count562
+\@thisrulewidth=\dimen332
 ) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarychains.code.tex
 File: tikzlibrarychains.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen304
-\pgfdecoratedremainingdistance=\dimen305
-\pgfdecoratedinputsegmentcompleteddistance=\dimen306
-\pgfdecoratedinputsegmentremainingdistance=\dimen307
-\pgf@decorate@distancetomove=\dimen308
-\pgf@decorate@repeatstate=\count539
-\pgfdecorationsegmentamplitude=\dimen309
-\pgfdecorationsegmentlength=\dimen310
-)
-\tikz@lib@dec@box=\box95
-) (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+)) (c:/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
  (c:/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen311
+\arrowsize=\dimen333
 ))) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/bib-setup.tex) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/preamble/thesis-details.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1159,17 +1244,17 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 7.
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count540
-\scratchdimen=\dimen312
-\scratchbox=\box96
-\nofMPsegments=\count541
-\nofMParguments=\count542
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count543
-\MPscratchDim=\dimen313
-\MPnumerator=\count544
-\makeMPintoPDFobject=\count545
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count563
+\scratchdimen=\dimen334
+\scratchbox=\box98
+\nofMPsegments=\count564
+\nofMParguments=\count565
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count566
+\MPscratchDim=\dimen335
+\MPnumerator=\count567
+\makeMPintoPDFobject=\count568
+\everyMPtoPDFconversion=\toks55
 ) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1215,7 +1300,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box97
+\AtBeginShipoutBox=\box99
 Package hyperref Info: Link coloring OFF on input line 7.
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1224,14 +1309,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count546
+\c@section@level=\count569
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
 LaTeX Info: Redefining \nameref on input line 7.
  (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.out) (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.out)
-\@outlinefile=\write7
-\openout7 = `main.out'.
+\@outlinefile=\write8
+\openout8 = `main.out'.
 
 Package biblatex Info: Trying to load language 'UKenglish'...
 Package biblatex Info: ... file 'UKenglish.lbx' found.
@@ -1262,6 +1347,10 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
  ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
+ on input line 7.
+
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1294,13 +1383,13 @@ Package biblatex Info: Reference segment=0 on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=95, 45.771pt x 65.043pt>
+<logo.png, id=99, 45.771pt x 65.043pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 9.
 (pdftex.def)             Requested size: 76.2892pt x 108.405pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9.
- (c:/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+(c:/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9.
@@ -1384,8 +1473,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 7.
 )
-\tf@toc=\write8
-\openout8 = `main.toc'.
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
  [3
 
@@ -1411,25 +1500,25 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [3
 
 ]
-<./figures/relu.png, id=195, 433.62pt x 289.08pt>
+<./figures/relu.png, id=200, 433.62pt x 289.08pt>
 File: ./figures/relu.png Graphic file (type png)
 <use ./figures/relu.png>
 Package pdftex.def Info: ./figures/relu.png  used on input line 90.
 (pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
  [4 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/relu.png>]
-<./figures/sigmoid.png, id=213, 433.62pt x 289.08pt>
+<./figures/sigmoid.png, id=218, 433.62pt x 289.08pt>
 File: ./figures/sigmoid.png Graphic file (type png)
 <use ./figures/sigmoid.png>
 Package pdftex.def Info: ./figures/sigmoid.png  used on input line 116.
 (pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
  [5 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/sigmoid.png>]
-<./figures/tanh.png, id=229, 433.62pt x 289.08pt>
+<./figures/tanh.png, id=234, 433.62pt x 289.08pt>
 File: ./figures/tanh.png Graphic file (type png)
 <use ./figures/tanh.png>
 Package pdftex.def Info: ./figures/tanh.png  used on input line 132.
 (pdftex.def)             Requested size: 241.84842pt x 161.23528pt.
  [6 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/tanh.png>]
-<./figures/lstm_cell.png, id=247, 320.51746pt x 197.65845pt>
+<./figures/lstm_cell.png, id=252, 320.51746pt x 197.65845pt>
 File: ./figures/lstm_cell.png Graphic file (type png)
 <use ./figures/lstm_cell.png>
 Package pdftex.def Info: ./figures/lstm_cell.png  used on input line 165.
@@ -1439,7 +1528,7 @@ Overfull \hbox (48.51195pt too wide) in paragraph at lines 165--167
  [][] 
  []
 
-<./figures/lstm_objects_info_matrix.png, id=248, 155.83218pt x 183.68625pt>
+<./figures/lstm_objects_info_matrix.png, id=253, 155.83218pt x 183.68625pt>
 File: ./figures/lstm_objects_info_matrix.png Graphic file (type png)
 <use ./figures/lstm_objects_info_matrix.png>
 Package pdftex.def Info: ./figures/lstm_objects_info_matrix.png  used on input line 171.
@@ -1451,7 +1540,7 @@ Chapter 3.
 ]
 Chapter 4.
 (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/method.tex
-<./figures/smallACF.png, id=267, 433.62pt x 289.08pt>
+<./figures/smallACF.png, id=272, 433.62pt x 289.08pt>
 File: ./figures/smallACF.png Graphic file (type png)
 <use ./figures/smallACF.png>
 Package pdftex.def Info: ./figures/smallACF.png  used on input line 22.
@@ -1459,7 +1548,7 @@ Package pdftex.def Info: ./figures/smallACF.png  used on input line 22.
  [9
 
 ]
-<./figures/PACF.png, id=274, 433.62pt x 289.08pt>
+<./figures/PACF.png, id=279, 433.62pt x 289.08pt>
 File: ./figures/PACF.png Graphic file (type png)
 <use ./figures/PACF.png>
 Package pdftex.def Info: ./figures/PACF.png  used on input line 31.
@@ -1485,13 +1574,13 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-\c@nn@layerindex@counter=\count547
-\c@nn@lastlayerstart@counter=\count548
-\c@nn@thislayerstart@counter=\count549
-\c@nn@lastlayercount@counter=\count550
-\c@nn@thislayercount@counter=\count551
-\c@nn@lastlayerindex@counter=\count552
-\c@nn@thislayerindex@counter=\count553
+\c@nn@layerindex@counter=\count570
+\c@nn@lastlayerstart@counter=\count571
+\c@nn@thislayerstart@counter=\count572
+\c@nn@lastlayercount@counter=\count573
+\c@nn@thislayercount@counter=\count574
+\c@nn@lastlayerindex@counter=\count575
+\c@nn@thislayerindex@counter=\count576
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1518,52 +1607,59 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11]
+ [11]
 \openout5 = `main.pyg'.
 
- (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/CD07AB5C3CDB663692C80EF39F96FD23EED0F18233776CBE5B53FF396AA7B09D.pygtex)
-<./figures/model_plot.png, id=294, 408.52625pt x 296.10625pt>
+ (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/CD07AB5C3CDB663692C80EF39F96FD23EED0F18233776CBE5B53FF396AA7B09D.pygtex) [12]
+<./figures/model_plot.png, id=305, 408.52625pt x 296.10625pt>
 File: ./figures/model_plot.png Graphic file (type png)
 <use ./figures/model_plot.png>
 Package pdftex.def Info: ./figures/model_plot.png  used on input line 111.
 (pdftex.def)             Requested size: 227.62204pt x 164.987pt.
- [12] [13 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png>]
-<./figures/maevsmse.png, id=308, 433.62pt x 289.08pt>
+ [13 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/model_plot.png>]
+<./figures/maevsmse.png, id=313, 433.62pt x 289.08pt>
 File: ./figures/maevsmse.png Graphic file (type png)
 <use ./figures/maevsmse.png>
 Package pdftex.def Info: ./figures/maevsmse.png  used on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 189.69504pt.
 ) [14 <c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/./figures/maevsmse.png>]
 Chapter 5.
-(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex) [15
+(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/results.tex [15
 
 ]
-Chapter 6.
-(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex) [16
+\openout5 = `main.pyg'.
 
-] [17
+ (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/C6264E8D19BB8209B5FDE165E34E084BEED0F18233776CBE5B53FF396AA7B09D.pygtex) [16]
+\openout5 = `main.pyg'.
+
+ (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/A568D610DF3EDF380C4AA5DEDDF898B91A5CCE18FDBA969838A333742797713A.pygtex)
+\openout5 = `main.pyg'.
+
+ (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/_minted-main/F78FEE4F969AEFD328861569CA6A1A691A5CCE18FDBA969838A333742797713A.pygtex) [17]
+PGFPlots: reading {results/combined_scores.csv}
+) [18]
+Chapter 6.
+(c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/chapters/conclusions.tex) [19
+
+] [20
 
 ]
 Overfull \hbox (8.68985pt too wide) in paragraph at lines 36--36
 []\T1/lmr/m/n/12 D. Rumel-hart, G. Hin-ton and R. Wil-li-ams, `  Learn-ing rep-res-ent-a-tions by back-propagating
  []
 
-[18] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lot)
-\tf@lot=\write9
-\openout9 = `main.lot'.
+[21] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lot)
+\tf@lot=\write10
+\openout10 = `main.lot'.
 
- [19
+ [22
 
 
 ] (c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.lof)
-\tf@lof=\write10
-\openout10 = `main.lof'.
+\tf@lof=\write11
+\openout11 = `main.lof'.
 
- [20
+ [23
 
 
 ]
@@ -1573,7 +1669,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7B791F86343E2AE6D85B350312F7D757;1287.
+(rerunfilecheck)             Checksum: 4E61F4FFE899F013CDD1B9E58DBC9A52;1347.
 runsystem(del main.pyg)...executed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1581,18 +1677,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39310 strings out of 480478
- 785902 string characters out of 5903485
- 1530572 words of memory out of 5000000
- 54439 multiletter control sequences out of 15000+600000
+ 50232 strings out of 480478
+ 1147115 string characters out of 5903485
+ 2003145 words of memory out of 5000000
+ 65196 multiletter control sequences out of 15000+600000
  632569 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,104p,2011b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (24 pages, 583092 bytes).
+Output written on c:/Users/anton/Documents/antoniouaa/msc_thesis/tex/main.pdf (27 pages, 590336 bytes).
 PDF statistics:
- 503 PDF objects out of 1000 (max. 8388607)
- 434 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 531 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -28,6 +28,108 @@ The data consist of daily values for the period starting January 1, 2016 and end
     \label{tab:stocks_included}
 \end{table}
 
+The data range wildly from low closing values of a few dollars to thousands of dollars per stock. Before the data is given to the model, we normalise to the range of [0, 1]. The data range of Jan 1, 2016 - Dec 31, 2019 includes 1006 rows of daily stock data from which we select the 1000 most recent for modelling.
+
+\section{Preprocessing}
+
+To normalise the data, we use \texttt{scikit-learn}'s \texttt{MinMaxScaler} which scales features to the range [0, 1] based on the minimum and maximum value in the set. We select all the features we are going to use in the model, \texttt{open}, \texttt{high}, \texttt{low} and \texttt{close} and stack them horizontally in a single multidimensional array to be scaled down.
+
+\begin{figure}[H]
+    \begin{minted}[mathescape, linenos, numbersep=5pt, gobble=2, frame=lines, framesep=2mm]{python}
+        open_ = dataset["open"].values.reshape(1000, 1)
+        high = dataset["high"].values.reshape(1000, 1)
+        low = dataset["low"].values.reshape(1000, 1)
+        close = dataset["close"].values.reshape(1000, 1)
+        d = np.hstack((open_, high, low, close))
+        scaler = MinMaxScaler()
+        d = scaler.fit_transform(d)
+    \end{minted}
+    \caption{Simple normalisation of data using \texttt{MinMaxScaler} from the \texttt{sklearn} library}
+    \label{code:data_scaling}
+\end{figure}
+
+The transformation of the data is given by the mathematical formula:
+
+\begin{equation}
+    X'_{i, j} = \frac{X_{i, j} - X_{min}}{X_{max} - X_{min}}
+\end{equation}
+
+And the inverse transform is given by the mathematical formula:
+
+\begin{equation}
+    X_{i, j} = X'_{i, j} (X_{max} - X_{min}) + X_{min}
+\end{equation}
+
+where 
+\begin{itemize}[nosep]
+    \item[] $i$ is the trading day,
+    \item[] $j$ is the column number, indicating whether the value belongs to \texttt{open}, \texttt{high}, \texttt{low} or \texttt{close} prices
+\end{itemize}
+
+\pagebreak
+
+Labels are then extracted from the normalised dataset. We attempt to predict the closing price for the next day, given a few values, the current trading day's stock values. We split the data in such a way that for each trading day, the inputs (or features) are arrays of the \texttt{open}, \texttt{high}, \texttt{low} and \texttt{close} values of the previous specified number of days and the output (or labels) are an array of the predicted \texttt{open}, \texttt{high}, \texttt{low} or \texttt{close} values.
+
+An example to help visualise the data split:
+
+
+\begin{figure}[H]
+    With an input of:
+    \begin{minted}[mathescape, linenos, numbersep=5pt, gobble=2, frame=lines, framesep=2mm]{text}
+    array([[656.29 , 657.715, 627.51 , 636.99 ],
+           [646.86 , 646.91 , 627.65 , 633.79 ],
+           [622.   , 639.79 , 620.31 , 632.65 ],
+           [621.8  , 630.   , 605.21 , 607.94 ]])       
+    \end{minted}
+    and a step size of 3 days, we split the data into:
+    \begin{minted}[mathescape, linenos, numbersep=5pt, gobble=2, frame=lines, framesep=2mm]{text}
+    X = array([[656.29 , 657.715, 627.51 , 636.99 ],
+               [646.86 , 646.91 , 627.65 , 633.79 ],
+               [622.   , 639.79 , 620.31 , 632.65 ]])
+        
+    y = array([621.8 , 630.  , 605.21, 607.94])
+    \end{minted}
+    \caption{Splitting of data into features and labels}
+    \label{code:features_labels}
+\end{figure}
+
+where 
+\begin{itemize}[nosep]
+    \item[] \texttt{X} are stock values from the past 3 trading days, given to the model as input (features),
+    \item[] \texttt{y} are desired output values for all stock values we wish to predict as output (labels)
+\end{itemize}
+
+The data set is then split up into training and testing sets. The LSTM model is trained on the training set and then evaluated on the testing set. The ARIMA model is fitted and evaluated using Walk-Forward evaluation and MSE and MAE values are generated for both models and for all available stocks.
+
+
 \section{Evaluation Metrics}
 
+For each of the stocks and for each of the models, two evaluation metrics are produced, the mean squared error (MSE) and the mean absolute error (MAE).
+
+
+
 \section{Results}
+
+Long Short-Term Memory outperforms the autoregressive model in every single stock prediction, with lower error values for both error metrics, MAE and MSE.
+
+\begin{table}[H]
+    \centering
+    \pgfplotstabletypeset[
+    col sep = comma,
+    header=true,
+    string replace*={_}{\textsubscript},
+    every head row/.style={%
+        before row={
+            \toprule
+            & \multicolumn{4}{c}{\textbf{LSTM}} & \multicolumn{2}{c}{\textbf{ARIMA}}\\
+        },
+        after row=\midrule},
+    every last row/.style={after row=\bottomrule},
+    display columns/0/.style={column type=l,string type,column name={\textbf{Ticker}}},
+    display columns/1/.style={precision=7,column name={\textbf{MAE}},dec sep align},
+    display columns/2/.style={precision=7,column name={\textbf{MSE}},sci},
+    display columns/3/.style={precision=7,column name={\textbf{MAE}},dec sep align},
+    display columns/4/.style={precision=7,column name={\textbf{MSE}},sci},
+    ]
+    {results/combined_scores.csv}
+\end{table}

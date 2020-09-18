@@ -62,7 +62,7 @@ A training and testing split of 80-20 was used to evaluate ARIMA, the same split
 \section{Model Description}
 The network is a relatively simple network by most accounts, comprised of a single hidden layer. The simplicity of the model only goes to show the power of neural networks in fitting and forecasting time-series. The model consists of three layers, an input layer, a Long Short-Term Memory (LSTM) layer and the output layer, as shown in \ref{tab:model_arch}.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \begin{neuralnetwork}[height=4]
         \newcommand{\x}[2]{$x_#2$}
@@ -83,7 +83,7 @@ The network is a relatively simple network by most accounts, comprised of a sing
 
 The input layer receives a 2-dimensional array of historical stock values, including the previous day's opening, highest, lowest and closing stock prices. The network then allows the neurons to compete amongst each other and determing an appropriate output. Output is in the shape of a 1-dimensional array containing four values, the future day's predicted stock values for open, high, low and close. The LSTM layer contains 100 nodes and is trained for 100 epochs. The Rectifier Linear Unit was used as its activation function and the Mean Absolute Error was used as its loss function.
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \begin{tabular}{|r|r|l|r|l|l|}
         \hline

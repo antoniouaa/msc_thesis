@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+      \PYG{n}{open\PYGZus{}} \PYG{o}{=} \PYG{n}{dataset}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}open\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)}
+      \PYG{n}{high} \PYG{o}{=} \PYG{n}{dataset}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}high\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)}
+      \PYG{n}{low} \PYG{o}{=} \PYG{n}{dataset}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}low\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)}
+      \PYG{n}{close} \PYG{o}{=} \PYG{n}{dataset}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}close\PYGZdq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{l+m+mi}{1000}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)}
+      \PYG{n}{d} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{hstack}\PYG{p}{((}\PYG{n}{open\PYGZus{}}\PYG{p}{,} \PYG{n}{high}\PYG{p}{,} \PYG{n}{low}\PYG{p}{,} \PYG{n}{close}\PYG{p}{))}
+      \PYG{n}{scaler} \PYG{o}{=} \PYG{n}{MinMaxScaler}\PYG{p}{()}
+      \PYG{n}{d} \PYG{o}{=} \PYG{n}{scaler}\PYG{o}{.}\PYG{n}{fit\PYGZus{}transform}\PYG{p}{(}\PYG{n}{d}\PYG{p}{)}
+\end{Verbatim}

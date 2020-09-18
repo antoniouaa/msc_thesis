@@ -9,3 +9,4 @@ data/tickers/ticker_data/Raw
 src/dcgan
 src/lstm/multivariate_pred.ipynb
 resources
+*.fls
