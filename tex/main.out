@@ -10,14 +10,15 @@
 \BOOKMARK [1][-]{section.2.3}{Backpropagation}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.4}{LSTM}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{Autoregressive models}{}% 12
-\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 13
-\BOOKMARK [1][-]{section.4.1}{Time-Series Forecasting}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.2}{ARIMA}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.3}{Model Description}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.4}{Model Evaluation}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 18
-\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 19
-\BOOKMARK [1][-]{section.5.2}{Preprocessing}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.3}{Evaluation Metrics}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 22
-\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Stochastic Processes}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Model Selection}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 15
+\BOOKMARK [1][-]{section.4.1}{ARIMA}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{LSTM}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Model Evaluation}{chapter.4}% 18
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 19
+\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.2}{Preprocessing}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.3}{Evaluation Metrics}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 24

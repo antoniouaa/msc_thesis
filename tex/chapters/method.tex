@@ -2,38 +2,43 @@
 
 The following section provides details in the construction of the model for predicting stock prices, as well as a description of the ARIMA model to which we compare the network.
 
-\section{Time-Series Forecasting}
-Financial data are discrete in time and as such can be modelled as time-series with calculated means and standard deviations.
-
 \section{ARIMA}
 To fit an ARIMA model we need to first perform some basic data exploration to identify key features in the time series. Our aim is to attempt to identify the order of the model through observations of the plots instead of relying on innefficient but exhaustive grid search. 
 
 In total, there are three model parameters we need to identify:
-\begin{list}{--}{}%
-    \item $p$, autoregressive terms
-    \item $d$, integrated terms
-    \item $q$, moving average terms
-\end{list}%
+\begin{itemize}[nosep]
+    \item[-] $p$, autoregressive terms
+    \item[-] $d$, integrated terms
+    \item[-] $q$, moving average terms
+\end{itemize}%
 
 We begin by plotting autocorrelation functions for the entire dataset and each stock individually. Slow degradation of the ACF plot tends to point to autoregressive terms while the opposite is true for moving average terms. Figure \ref{tab:smallACF} shows us the autocorrelation plot for all the stocks. We observe a slow fall in the ACF plot, which is consistent with autoregressive terms in the model.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width= 130mm]{smallACF.png}
+    \includegraphics[scale=0.7]{smallACF.png}
     \caption{Autocorrelation function before any differencing}
     \label{tab:smallACF}    
 \end{figure}
 
- This graph also tells us that there is significant correlation in the series for over 30 lags. No differencing has been done at this point, the strong correlation could be caused by autocorrelation at lags 1 or 2, which is confirmed by the Partial Autocorrelation function plot below:
+This graph also tells us that there is significant correlation in the series for over 30 lags. No differencing has been done at this point, the strong correlation could be caused by autocorrelation at lags 1 or 2, which is confirmed by the Partial Autocorrelation function plot below:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=130mm]{PACF.png}
-    \caption{Partial Autocorrelation Function}
-    \label{tab:PACF}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale=0.6]{PACF.png}
+        \label{tab:PACF}        
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[scale=0.6]{ACFDifferenced.png}
+        \label{tab:differenced}
+    \end{subfigure}
+    \caption{PACF and ACF of differenced series}
 \end{figure}
 
-We observe two significant spikes at lags 1 and 2, indicating that the series needs to be differenced twice, $d = 2$.
+We observe two significant spikes at lags 1 and 2, indicating that the series needs to be differenced twice, $d = 2$. We also observe a major positive spike at $lag=1$ for the differenced ACF plot on the right, which suggests we should add another autoregressive term.
 
 We conclude that a good estimate on the hyperparameters of the ARIMA model we are going to use would be (2, 2, 0), for 2 autoregressive terms, 2 differencing terms and 0 moving average terms.
 
@@ -59,7 +64,7 @@ Using the \texttt{statsmodel} Python module, we create and validate our ARIMA mo
 
 A training and testing split of 80-20 was used to evaluate ARIMA, the same split we use to evaluate the neural network approach.
 
-\section{Model Description}
+\section{LSTM}
 The network is a relatively simple network by most accounts, comprised of a single hidden layer. The simplicity of the model only goes to show the power of neural networks in fitting and forecasting time-series. The model consists of three layers, an input layer, a Long Short-Term Memory (LSTM) layer and the output layer, as shown in \ref{tab:model_arch}.
 
 \begin{figure}[H]

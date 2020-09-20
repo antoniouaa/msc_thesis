@@ -101,6 +101,32 @@
       \verb 10.1111/j.1540-6261.1986.tb04513.x
       \endverb
     \endentry
+    \entry{box_jenkins}{article}{}
+      \name{author}{2}{}{%
+        {{hash=beeaf743dc5d4fb9bbe34e165a1de434}{%
+           family={Box},
+           familyi={B\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=674c1b52682cc956c2a1bf8e0a106c4e}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Gwilym},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b338ae6447c77f4df3f4f860775aa5ec}
+      \strng{fullhash}{b338ae6447c77f4df3f4f860775aa5ec}
+      \strng{bibnamehash}{b338ae6447c77f4df3f4f860775aa5ec}
+      \strng{authorbibnamehash}{b338ae6447c77f4df3f4f860775aa5ec}
+      \strng{authornamehash}{b338ae6447c77f4df3f4f860775aa5ec}
+      \strng{authorfullhash}{b338ae6447c77f4df3f4f860775aa5ec}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time series analysis: Forecasting and control}
+      \field{year}{1970}
+    \endentry
     \entry{burton}{book}{}
       \name{author}{1}{}{%
         {{hash=16808917aa627918a8c2b99097f66607}{%
@@ -237,28 +263,6 @@
       \field{year}{1970}
       \field{pages}{383\bibrangedash 417}
       \range{pages}{35}
-    \endentry
-    \entry{box_jenkins}{article}{}
-      \name{author}{1}{}{%
-        {{hash=5123b778b5058078fcd87d8a32e08bc4}{%
-           family={George\bibnamedelima Box},
-           familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Gwilym\bibnamedelima Jenkins},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{5123b778b5058078fcd87d8a32e08bc4}
-      \strng{fullhash}{5123b778b5058078fcd87d8a32e08bc4}
-      \strng{bibnamehash}{5123b778b5058078fcd87d8a32e08bc4}
-      \strng{authorbibnamehash}{5123b778b5058078fcd87d8a32e08bc4}
-      \strng{authornamehash}{5123b778b5058078fcd87d8a32e08bc4}
-      \strng{authorfullhash}{5123b778b5058078fcd87d8a32e08bc4}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{subtitle}{Forecasting and control}
-      \field{title}{Time series analysis}
-      \field{year}{1970}
     \endentry
     \entry{relu-vision}{article}{}
       \name{author}{3}{}{%
@@ -507,6 +511,30 @@
       \field{year}{1956}
       \field{pages}{3\bibrangedash 41}
       \range{pages}{39}
+    \endentry
+    \entry{stationarity}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a2f15d5112e54cdeb2b9f59c0fb460a8}{%
+           family={Kun},
+           familyi={K\bibinitperiod},
+           given={Park},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a2f15d5112e54cdeb2b9f59c0fb460a8}
+      \strng{fullhash}{a2f15d5112e54cdeb2b9f59c0fb460a8}
+      \strng{bibnamehash}{a2f15d5112e54cdeb2b9f59c0fb460a8}
+      \strng{authorbibnamehash}{a2f15d5112e54cdeb2b9f59c0fb460a8}
+      \strng{authornamehash}{a2f15d5112e54cdeb2b9f59c0fb460a8}
+      \strng{authorfullhash}{a2f15d5112e54cdeb2b9f59c0fb460a8}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of Probability and Stochastic Processes with Applications to Communications}
+      \field{year}{2018}
     \endentry
     \entry{relu-acoustics}{article}{}
       \name{author}{3}{}{%

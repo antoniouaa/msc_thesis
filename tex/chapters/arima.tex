@@ -1,1 +1,92 @@
-The prices of stocks can be modelled as non-linear time series, which have been at the centre of attention in the finance world since the 1970s with George Box and Gwilym Jenkins popularised their Box-Jenkins method for finding the best-fit of a time series model\citesuper{box_jenkins}.
+Time series are series of points sorted by time. In the context of finance, time series are discrete-time data sequences, describing the nature of a financial instrument, with an example being the daily closing price of a stock. Mathematically, a time series $X$ is written
+\begin{equation}
+    X = \{X_1, X_2, ..., X_t\} 
+\end{equation}
+or alternatively
+\begin{equation}
+    X = \{X_t : t \in T\}
+\end{equation}
+
+\section{Stochastic Processes}
+Stochastic processes are processes used to describe the behaviour of random variables and were first described by Luis Bachelier in 1900. \citeauthor{bachelier} used discrete-time random walks to generate Brownian motion in his novel model for valuing stock options, making this the first instance in finance to use advanced mathematics to model instruments\citesuper{bachelier}. \citeauthor{box_jenkins} define stochastic processes as models that describe the probability structure of a sequence of observations\citesuper{box_jenkins}. For stochastic process to be useful in forecasting values, they need to be of a specific form and vary in stable, predictible manners. A stationary process is a subclass of stochastic processes whose statistical properties, e.g. the mean or the variance, do not change with time\citesuper{stationarity}. Stationarity is a key concept in time series analysis, with many theorems directly assuming stationarity in the data. The simplest example of a stationary stochastic process is the example of white noise, $X_T = \epsilon_t$.
+
+The ARMA model is a description of a stochastic process as a combination of two stationary polynomial terms, AR and MA, 
+where
+
+\begin{itemize}[nosep]
+    \item[] AR $\rightarrow$ Autoregression,
+    \item[] MA $\rightarrow$ Moving Average.
+\end{itemize}
+
+Autoregressive models of order p are denoted as AR(p) and are mathematically defined as
+\begin{equation}
+    X_t = c + \sum\limits_{i=1}^{p} \varphi_i L^i X_t + \epsilon_t
+\end{equation}
+where
+\begin{itemize}[nosep]
+    \item[] $\varphi_i$ are the parameters of the model,
+    \item[] $L^i$ is the Lag operator (also known as BackShift operator).
+\end{itemize}
+
+The Lag operator $L$ is defined for $X = \{X_1, X_2,..., X_t\}$ as
+\begin{equation}
+    LX_t = X_{t-1}
+\end{equation}
+\begin{equation}
+    L^kX_t = X_{t-k}
+\end{equation}
+
+Moving Average models of order q are denoted as MA(q) and are mathematically defined as 
+\begin{equation}
+    X_t = \mu + \epsilon_t + \sum\limits_{i=1}^{q} \theta_i L^i \epsilon_{t}
+\end{equation}
+where
+\begin{itemize}[nosep]
+    \item[] $\theta_i$ are the parameters of the model.
+\end{itemize}
+
+Put together, these terms create the ARMA model, denoted as ARMA(p, q) and mathematically defined as 
+\begin{equation}
+    X_t = c + \epsilon_t + \sum\limits_{i=1}^{p} \varphi_i L^i X_t + \sum\limits_{i=1}^{q} \theta_i L^i \epsilon_{t}
+\end{equation}
+
+ARIMA is a generalisation of the ARMA model applied to non-stationary processes. \textit{I} stands for \textit{Integrated} and refers to the differencing performed to the data to make them stationary.
+
+By moving ARMA terms around we show that 
+\begin{equation}
+    \left(1 - \sum\limits_{i=1}^{p} \varphi_i L^i\right) X_t = c + \left(1 + \sum\limits_{i=1}^{q} \theta_i L^i \right) \epsilon_{t}
+\end{equation}
+Reducing further to 
+\begin{equation}
+    \varphi_p(L)X_t = \theta_q(L)\epsilon_t
+\end{equation}
+where
+\begin{itemize}[nosep]
+    \item[] $ \varphi_p(L) = 1 - \sum\limits_{i=1}^{p} \varphi_i L^i $
+    \item[]  $ \theta_q(L) = 1 + \sum\limits_{i=1}^{q} \theta_i L^i $
+\end{itemize}
+When our process exhibits non-stationarity, differencing is performed to make the process stationary.
+\begin{equation}
+    \begin{aligned}
+        Y_t &= X_t - X_{t-1} = (1 - L)X_t \\
+        Y_t - Y_{t-1} &= X_t - 2X_{t-1} + X_{t-2} \\
+        &= (1 - L)^2 X_t
+    \end{aligned}
+\end{equation}
+Generalising
+\begin{equation}
+    Y_t - \sum\limits_{i=1}^{d}Y_{t-k}  = (1 - L)^d X_t
+\end{equation}
+Introducing this general differencing operator to the ARMA model transforms it into an ARIMA(p, d, q) model
+\begin{equation}
+    \varphi_p(L)(1-L)^d X_t = \theta_q(L) \epsilon_t
+\end{equation}
+where 
+\begin{itemize}[nosep]
+    \item[] p is the order of autoregressive model,
+    \item[] d is the order of differencing,
+    \item[] q is the     order of moving average model.
+\end{itemize}
+
+\section{Model Selection}
+A popular methodology for selecting ARIMA models to fit data to is the Box-Jenkins methodology, first presented in 1970 by statisticians George Box and Gwilym Jenkins in their textbook \citetitle{box_jenkins}. The model is used to determine the order of ARIMA model to be used, in terms of p, d and q, as defined above. There are three steps to the model: Model Identification, Model Estimation and Diagnostic Checking. Model Identification refers to using plots of the data as long as other information about the structure of the time series to "guess" the class of ARIMA model to be used. During this step, the autocorrelation and partial autocorrelation functions are plotted and reasonable guesses can be made about the order of the model. Model Estimation refers to using numerical methods to approximate the true values of p, d and q and Diagnostic Checking refers to checking the model after it has been fitted to the data by plotting autocorrelation plots for the residual terms.

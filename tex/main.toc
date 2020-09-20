@@ -26,24 +26,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Autoregressive models}{8}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Methodology}{9}{chapter.4}%
+\contentsline {section}{\numberline {3.1}Stochastic Processes}{8}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Time-Series Forecasting}{9}{section.4.1}%
+\contentsline {section}{\numberline {3.2}Model Selection}{10}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}ARIMA}{9}{section.4.2}%
+\contentsline {chapter}{\numberline {4}Methodology}{11}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Model Description}{11}{section.4.3}%
+\contentsline {section}{\numberline {4.1}ARIMA}{11}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Model Evaluation}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.2}LSTM}{13}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Results}{15}{chapter.5}%
+\contentsline {section}{\numberline {4.3}Model Evaluation}{15}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Dataset}{15}{section.5.1}%
+\contentsline {chapter}{\numberline {5}Results}{17}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Preprocessing}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.1}Dataset}{17}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Evaluation Metrics}{18}{section.5.3}%
+\contentsline {section}{\numberline {5.2}Preprocessing}{18}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Results}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.3}Evaluation Metrics}{20}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussion}{19}{chapter.6}%
+\contentsline {section}{\numberline {5.4}Results}{20}{section.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Discussion}{21}{chapter.6}%
