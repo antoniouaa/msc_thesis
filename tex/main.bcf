@@ -2221,18 +2221,20 @@
     <bcf:citekey order="36">relu-acoustics</bcf:citekey>
     <bcf:citekey order="37">backprop</bcf:citekey>
     <bcf:citekey order="38">rumelhart_backprop</bcf:citekey>
-    <bcf:citekey order="39">goodfellow_backprop</bcf:citekey>
-    <bcf:citekey order="40">lstm</bcf:citekey>
-    <bcf:citekey order="41">lstm</bcf:citekey>
-    <bcf:citekey order="42">vanishing</bcf:citekey>
-    <bcf:citekey order="43">rnn_vanishing</bcf:citekey>
-    <bcf:citekey order="44">bachelier</bcf:citekey>
-    <bcf:citekey order="45">bachelier</bcf:citekey>
-    <bcf:citekey order="46">box_jenkins</bcf:citekey>
-    <bcf:citekey order="47">box_jenkins</bcf:citekey>
-    <bcf:citekey order="48">stationarity</bcf:citekey>
+    <bcf:citekey order="39">jacobian_img</bcf:citekey>
+    <bcf:citekey order="40">jacobian_img</bcf:citekey>
+    <bcf:citekey order="41">goodfellow_backprop</bcf:citekey>
+    <bcf:citekey order="42">lstm</bcf:citekey>
+    <bcf:citekey order="43">lstm</bcf:citekey>
+    <bcf:citekey order="44">vanishing</bcf:citekey>
+    <bcf:citekey order="45">rnn_vanishing</bcf:citekey>
+    <bcf:citekey order="46">bachelier</bcf:citekey>
+    <bcf:citekey order="47">bachelier</bcf:citekey>
+    <bcf:citekey order="48">box_jenkins</bcf:citekey>
     <bcf:citekey order="49">box_jenkins</bcf:citekey>
-    <bcf:citekey order="50">chollet2015keras</bcf:citekey>
+    <bcf:citekey order="50">stationarity</bcf:citekey>
+    <bcf:citekey order="51">box_jenkins</bcf:citekey>
+    <bcf:citekey order="52">chollet2015keras</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

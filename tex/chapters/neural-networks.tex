@@ -135,28 +135,31 @@ Unlike the standard sigmoid function, tanh can output negative values for negati
 \end{figure}
 
 \section{Backpropagation}
-The backpropagation algorithm is a key feature of neural networks as it allowed for fast and efficient training of multi-layered networks by distributing error values back through the layers of the network, adjusting the weights in the connections between neurons respectively.\citesuper{backprop} In more detail, backpropagation functions compute the gradient $\nabla_{x}f(\mathbf{x}, \mathbf{y})$ numerically in a simple and inexpensive procedure.\citesuper{rumelhart_backprop} What computing the gradient really means is calculating the derivative of the loss function in the model, with the loss function being a selected error function.
+The backpropagation algorithm is a key feature of neural networks as it allowed for fast and efficient training of multi-layered networks by distributing error values back through the layers of the network, adjusting the weights in the connections between neurons respectively.\citesuper{backprop} In more detail, backpropagation functions compute the gradient $\nabla_{x}f(\mathbf{X}, \mathbf{y})$ numerically in a simple and inexpensive procedure.\citesuper{rumelhart_backprop} What computing the gradient really means is calculating the derivative of the loss function in the model, with the loss function being a selected error function, a historically popular function being the sigmoid function described in the previous section.
 
 \newcommand{\R}{\mathbb{R}}
 
 The chain rule is a way to calculate the derivate of functions by decomposing a function to other functions whose derivative is known. Let $x$ be a real number and $f$ and $g$ be functions that map from $\R$ to $\R$. By generalising the chain rule of calculus
-
 \begin{align}
     \frac{dz}{dx} &= \frac{dz}{dy}\frac{dy}{dx}
 \end{align}
-
-beyond the scalar case into vector notation, such that 
-
+one could compute the partial derivatives of the error at node $ (i, j)$ with weight $w$ 
 \begin{align}
-    \nabla_{x}z = (\frac{\delta y}{\delta x})^T \nabla_{y}z
+    \frac{\partial z}{\partial x_i} &= \sum\limits_{j} \frac{\partial z}{\partial y_j}\frac{\partial y_j}{\partial x_i}
 \end{align}
-
-where $\frac{\delta y}{\delta x}$ is a Jacobian matrix of $g$. The backpropagation algorithm is essentially a fast computation of this Jacobian gradient for each connection and node in the network.\citesuper{goodfellow_backprop}
+Computing all these derivatives and putting them in a matrix of size $n\times m$ where $n = i$ and $m = j$ constructs the Jacobian matrix for the function $z = f(x)$. A Jacobian matrix is formally defined as the matrix of all first-order partial derivatives of a vector-valued function.
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{jacobian.png}
+    \label{tab:jacobian}
+    \caption{Matrix representation of the Jacobian matrix\citesuper{jacobian_img} $\mathbf{J}$ of function $\mathbf{f}$. Every entry $(i, j)$ in the matrix is $\mathbf{J}_{i, j} = \frac{\partial f_i}{\partial x_j}$}
+\end{figure}
+Backpropagation performs this calculation for every single node in the network moving backwards, updating the weights on the nodes as it moves, effectively training the network\citesuper{goodfellow_backprop}. Backpropagation is so efficient, it has become the most popular algorithm in training neural networks, along with the sigmoid being one of the most popular activation functions demonstrated in backprop algorithms due to its easy and simple derivative.
 
 \section{LSTM}
 Long Short-Term Memory (LSTM) is a type of recurrent neural network first introduced in \citeyear{lstm} by \citeauthor{lstm}. Like all recurrent networks, LSTM differs from feed-forward networks by incorporating cyclical connections between neurons.
 
-The LSTM was introduced specifically to address the two problems of the \emph{vanishing gradient problem} and the \emph{exploding gradient problem}. The two problems are closely linked problems regarding the propagation of errors in deep neural networks. In short, the two gradient problems appear when attempting to train networks with gradient-based learning, iterative methods for computing the gradient at each sample point, and either cause the gradient to be "vanishingly" small (\emph{vanishing gradient}) or to "explosively" increase (\emph{exploding gradient}).\citesuper{vanishing}\citesuper{rnn_vanishing}
+The LSTM was introduced specifically to address the two problems of the \emph{vanishing gradient problem} and the \emph{exploding gradient problem}. The two problems are closely linked problems regarding the propagation of errors in deep neural networks. In short, the two gradient problems appear when attempting to train networks with gradient-based learning, iterative methods for computing the gradient at each sample point, like the backpropagation method described above, and either cause the gradient to be "vanishingly" small (\emph{vanishing gradient}) or to "explosively" increase (\emph{exploding gradient}).\citesuper{vanishing}\citesuper{rnn_vanishing}
 
 \begin{figure}[H]
     \centering
@@ -173,5 +176,3 @@ The LSTM was introduced specifically to address the two problems of the \emph{va
     \end{subfigure}
     \caption{Diagram of the LSTM cell}
 \end{figure}
-
-

@@ -1,5 +1,4 @@
-Averaging the values for the two models across all stocks further shows the superiority of the LSTM's performance compared to the traditional ARIMA model.
-
+Averaging the values for the two models across all stocks further shows the improved performance of the LSTM compared to the traditional ARIMA model.
 \begin{table}[H]
     \centering
     \begin{tabular}{r|l|l}
@@ -13,3 +12,8 @@ Averaging the values for the two models across all stocks further shows the supe
     \caption{Average MAE and MSE results}
     \label{tab:averaqe_error_values_models}
 \end{table}
+This doesn't mean that ARIMA and other statistical models are to be discarded in favour of neural networks. Neural networks are still relatively new to the world and are still being improved upon. This paper was an attempt to show how easy and simple it is to set up a recurrent neural network without much optimisation that would outperform more established statistical models, but it is not a comprehensive comparison of the two models. Granted, the ARIMA model was not optimised as much as it could have been with only elementary observations guiding the model selection stages instead of something more robust like an exhaustive hyperparameter grid search.
+
+This paper used a single hidden LSTM layer with 100 neurons at 100 epochs to achieve an average mean absolute error of 0.0131, approximately 23\% lower than the ARIMA model. Further research could improve upon the model selection and hyperparameter estimation for both models, with testing of other ARIMA orders and exploring more options for the LSTM model, like varying the number of epochs, the learning rate of the optimiser, altering the shape of the data, introducing more layers to the network and even creating new architectures to handle time series forecasting. 
+
+Future research could have other models be compared to LSTMs, like wavelet analysis, generalised autoregressive heteroscedastic models, as well as multivariate models.

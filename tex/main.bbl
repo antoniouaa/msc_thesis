@@ -457,6 +457,14 @@
       \field{volume}{9}
       \field{year}{1997}
     \endentry
+    \entry{jacobian_img}{misc}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant}
+      \field{title}{Jacobian Matrix}
+      \field{year}{2020}
+    \endentry
     \entry{tech_analysis}{book}{}
       \name{author}{2}{}{%
         {{hash=d4b775cd661ecc518ad25f17988c2c95}{%

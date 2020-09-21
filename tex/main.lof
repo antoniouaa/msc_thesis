@@ -14,28 +14,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Plot of the hyperbolic tangent function\relax }}{6}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagram of the LSTM cell\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Matrix representation of the Jacobian matrix\textsuperscript {\cite {jacobian_img}} $\mathbf {J}$ of function $\mathbf {f}$. Every entry $(i, j)$ in the matrix is $\mathbf {J}_{i, j} = \frac {\partial f_i}{\partial x_j}$\relax }}{7}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagram of the LSTM cell\relax }}{8}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Autocorrelation function before any differencing\relax }}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Autocorrelation function before any differencing\relax }}{12}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces PACF and ACF of differenced series\relax }}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces PACF and ACF of differenced series\relax }}{13}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Walk Forward Validation of ARIMA model using the \texttt {statsmodels} library\relax }}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Walk Forward Validation of ARIMA model using the \texttt {statsmodels} library\relax }}{14}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Architecture\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Model Architecture\relax }}{14}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Description of layers\relax }}{15}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Description of layers\relax }}{16}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of MAE (blue) and MSE (orange). Note how MAE scales linearly with higher error values while MSE scales quadratically, treating higher errors more harshly.\relax }}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of MAE (blue) and MSE (orange). Note how MAE scales linearly with higher error values while MSE scales quadratically, treating higher errors more harshly.\relax }}{17}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Simple normalisation of data using \texttt {MinMaxScaler} from the \texttt {sklearn} library\relax }}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Simple normalisation of data using \texttt {MinMaxScaler} from the \texttt {sklearn} library\relax }}{19}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Splitting of data into features and labels\relax }}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Splitting of data into features and labels\relax }}{20}{figure.caption.19}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
