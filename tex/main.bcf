@@ -2228,13 +2228,17 @@
     <bcf:citekey order="43">lstm</bcf:citekey>
     <bcf:citekey order="44">vanishing</bcf:citekey>
     <bcf:citekey order="45">rnn_vanishing</bcf:citekey>
-    <bcf:citekey order="46">bachelier</bcf:citekey>
-    <bcf:citekey order="47">bachelier</bcf:citekey>
-    <bcf:citekey order="48">box_jenkins</bcf:citekey>
-    <bcf:citekey order="49">box_jenkins</bcf:citekey>
-    <bcf:citekey order="50">stationarity</bcf:citekey>
-    <bcf:citekey order="51">box_jenkins</bcf:citekey>
-    <bcf:citekey order="52">chollet2015keras</bcf:citekey>
+    <bcf:citekey order="46">lstm_cell</bcf:citekey>
+    <bcf:citekey order="47">lstm_cell</bcf:citekey>
+    <bcf:citekey order="48">lstm</bcf:citekey>
+    <bcf:citekey order="49">lstm</bcf:citekey>
+    <bcf:citekey order="50">bachelier</bcf:citekey>
+    <bcf:citekey order="51">bachelier</bcf:citekey>
+    <bcf:citekey order="52">box_jenkins</bcf:citekey>
+    <bcf:citekey order="53">box_jenkins</bcf:citekey>
+    <bcf:citekey order="54">stationarity</bcf:citekey>
+    <bcf:citekey order="55">box_jenkins</bcf:citekey>
+    <bcf:citekey order="56">chollet2015keras</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

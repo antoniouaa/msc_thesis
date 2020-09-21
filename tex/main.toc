@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Problem statement}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Efficiency in the market}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Outline of Paper}{2}{section.1.2}%
 \defcounter {refsection}{0}\relax 

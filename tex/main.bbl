@@ -643,6 +643,28 @@
       \verb 10.1007/BF02478259
       \endverb
     \endentry
+    \entry{lstm_cell}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f485becc79d0de072475a17f2b8966c4}{%
+           family={Olan},
+           familyi={O\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f485becc79d0de072475a17f2b8966c4}
+      \strng{fullhash}{f485becc79d0de072475a17f2b8966c4}
+      \strng{bibnamehash}{f485becc79d0de072475a17f2b8966c4}
+      \strng{authorbibnamehash}{f485becc79d0de072475a17f2b8966c4}
+      \strng{authornamehash}{f485becc79d0de072475a17f2b8966c4}
+      \strng{authorfullhash}{f485becc79d0de072475a17f2b8966c4}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{http://colah.github.io/posts/2015-08-Understanding-LSTMs/}
+      \field{title}{Understanding LSTM Networks}
+      \field{year}{2015}
+    \endentry
     \entry{acti-functions}{article}{}
       \name{author}{2}{}{%
         {{hash=ad7301804d9e7533687947632a3988a5}{%

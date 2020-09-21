@@ -282,7 +282,7 @@
     
     % Then the fancy date!
     \vspace{1cm}
-    {\footnotesize \@ifundefined{@modulecode}{}{\@modulecode \\} August 2020 \par}
+    {\footnotesize \@ifundefined{@modulecode}{}{\@modulecode \\} September 2020 \par}
     
 	\end{titlepage}
 }

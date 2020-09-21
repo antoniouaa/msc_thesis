@@ -73,7 +73,7 @@ In mathematical terms, the step function, or the unit step function, is defined 
     \end{cases}
 \end{align}
 
-where $H(x)$ is the Heaviside step function\citesuper{step_function}. At value 0, an output of $H(0) = 1$ is selected and passed down to the next layer of neurons.
+where $H(x)$ is the Heaviside step function.\citesuper{step_function} At value 0, an output of $H(0) = 1$ is selected and passed down to the next layer of neurons.
 
 \subsection{Rectified Linear Unit}
 The Rectified Linear Unit (ReLU) is an activation function mathematically defined as 
@@ -88,7 +88,7 @@ where $x$ is the neuron's input value. Plotted on cartesian axes, the graph show
 \begin{figure}[H]
     \centering
     \includegraphics[width=85mm]{relu}
-    \caption{Plot of the Rectified Linear Unit function}
+    \caption{Plot of the Rectified Linear Unit function, generated using Python}
     \label{tab:relu}
 \end{figure}
 
@@ -114,7 +114,7 @@ Sigmoid functions are non-linear, differentiable, defined for all real input val
 \begin{figure}[H]
     \centering
     \includegraphics[width=85mm]{sigmoid}
-    \caption{Plot of the sigmoid function}
+    \caption{Plot of the sigmoid function, generated using Python}
     \label{tab:sigmoid}
 \end{figure}
 
@@ -130,7 +130,7 @@ Unlike the standard sigmoid function, tanh can output negative values for negati
 \begin{figure}[H]
     \centering
     \includegraphics[width=85mm]{tanh}
-    \caption{Plot of the hyperbolic tangent function}
+    \caption{Plot of the hyperbolic tangent function, generated using Python}
     \label{tab:tanh}
 \end{figure}
 
@@ -143,7 +143,7 @@ The chain rule is a way to calculate the derivate of functions by decomposing a 
 \begin{align}
     \frac{dz}{dx} &= \frac{dz}{dy}\frac{dy}{dx}
 \end{align}
-one could compute the partial derivatives of the error at node $ (i, j)$ with weight $w$ 
+one could compute the partial derivatives of the error at node $(i, j)$ with weight $w$ 
 \begin{align}
     \frac{\partial z}{\partial x_i} &= \sum\limits_{j} \frac{\partial z}{\partial y_j}\frac{\partial y_j}{\partial x_i}
 \end{align}
@@ -154,7 +154,7 @@ Computing all these derivatives and putting them in a matrix of size $n\times m$
     \label{tab:jacobian}
     \caption{Matrix representation of the Jacobian matrix\citesuper{jacobian_img} $\mathbf{J}$ of function $\mathbf{f}$. Every entry $(i, j)$ in the matrix is $\mathbf{J}_{i, j} = \frac{\partial f_i}{\partial x_j}$}
 \end{figure}
-Backpropagation performs this calculation for every single node in the network moving backwards, updating the weights on the nodes as it moves, effectively training the network\citesuper{goodfellow_backprop}. Backpropagation is so efficient, it has become the most popular algorithm in training neural networks, along with the sigmoid being one of the most popular activation functions demonstrated in backprop algorithms due to its easy and simple derivative.
+Backpropagation performs this calculation for every single node in the network moving backwards, updating the weights on the nodes as it moves, effectively training the network.\citesuper{goodfellow_backprop} Backpropagation is so efficient, it has become the most popular algorithm in training neural networks, along with the sigmoid being one of the most popular activation functions demonstrated in backprop algorithms due to its easy and simple derivative.
 
 \section{LSTM}
 Long Short-Term Memory (LSTM) is a type of recurrent neural network first introduced in \citeyear{lstm} by \citeauthor{lstm}. Like all recurrent networks, LSTM differs from feed-forward networks by incorporating cyclical connections between neurons.
@@ -174,5 +174,22 @@ The LSTM was introduced specifically to address the two problems of the \emph{va
         \includegraphics[height=60mm]{lstm_objects_info_matrix.png}
         \label{tab:lstm_cell_info}
     \end{subfigure}
-    \caption{Diagram of the LSTM cell}
+    \caption{Diagram of the LSTM cell\citesuper{lstm_cell}}
 \end{figure}
+LSTM introduces a few extra units to deal with these problems, 3 additional gating units that control the state of the LSTM cell. In the original LSTM paper, \citeauthor{lstm} used the sigmoid function as well as the related hyperbolic tangent function with varying ranges to control the state of the cells, leading to better performance in "remembering" long-term information about the structure of the data.\citesuper{lstm}
+
+A first sigmoid input gate affects the way old data are stored in the cell state,
+\begin{align}
+    f_t &= \sigma\left( W_f [h_{t-1}, x_t] + b_f \right)    
+\end{align} 
+followed by a tanh gate updating the state with values from the current input.
+\begin{align}
+    i_t &= \sigma\left( W_i [h_{t-1}, x_t] + b_i \right) \\
+    \hat{C_t} &= tanh\left(W_C [h_{t-1}, x_t] + b_C\right)
+\end{align}
+The state cell is then updated and output is produced with yet another sigmoid function
+\begin{align}
+    C_t &= f_t * C_{t-1} + i_t * \hat{C_t} \\
+    o_t &= \sigma \left(W_o [h_t-1, x_t] + b_o\right) \\
+    h_t &= o_t * tanh(C_t)
+\end{align}

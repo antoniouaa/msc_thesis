@@ -17,7 +17,7 @@ We begin by plotting autocorrelation functions for the entire dataset and each s
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{smallACF.png}
-    \caption{Autocorrelation function before any differencing}
+    \caption{Autocorrelation function before any differencing, generated using Python}
     \label{tab:smallACF}    
 \end{figure}
 
@@ -35,7 +35,7 @@ This graph also tells us that there is significant correlation in the series for
         \includegraphics[scale=0.6]{ACFDifferenced.png}
         \label{tab:differenced}
     \end{subfigure}
-    \caption{PACF and ACF of differenced series}
+    \caption{PACF and ACF of differenced series, generated using Python}
 \end{figure}
 
 We observe two significant spikes at lags 1 and 2, indicating that the series needs to be differenced twice, $d = 2$. We also observe a major positive spike at $lag=1$ for the differenced ACF plot on the right, which suggests we should add another autoregressive term.
@@ -82,7 +82,7 @@ The network is a relatively simple network by most accounts, comprised of a sing
         \outputlayer[count=1, title=Output, text=\y] 
         \linklayers
     \end{neuralnetwork}
-    \caption{Model Architecture}
+    \caption{Model Architecture, generated using \LaTeX}
     \label{tab:model_arch}
 \end{figure}
 
@@ -99,7 +99,7 @@ The input layer receives a 2-dimensional array of historical stock values, inclu
     \label{tab:lstm_layer}
 \end{table}
 
-In this project we made use of the Keras API to implement the network. Keras is written in Python and operates ontop of TensorFlow, which is an extremely popular and widely used Deep Learning library\citesuper{chollet2015keras}. A simple sequential model using LSTM cells built using Keras would look like this:
+In this project we made use of the Keras API to implement the network. Keras is written in Python and operates ontop of TensorFlow, which is an extremely popular and widely used Deep Learning library.\citesuper{chollet2015keras} A simple sequential model using LSTM cells built using Keras would look like this:
 
 \begin{minted}[mathescape, linenos, numbersep=5pt, gobble=2, frame=lines, framesep=2mm]{python}
     model = Sequential()
@@ -114,7 +114,7 @@ With as little as 5 lines of code, we have a working Long Short-Term Memory mode
 \begin{figure}[H]
     \centering
     \includegraphics[width=80mm]{model_plot}
-    \caption{Description of layers}
+    \caption{Description of layers, generated using Python}
     \label{tab:layer_description}
 \end{figure}
 
